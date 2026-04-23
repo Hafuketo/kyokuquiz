@@ -8,6 +8,7 @@ export interface Technique {
   nameJapanese: string;
   nameKanji: string;
   nameHiragana: string;
+  nameSwedish: string;
   nameEnglish: string;
   image: string | null;
 }
@@ -21,6 +22,7 @@ export interface DictionaryEntry {
   nameJapanese: string;
   nameKanji: string;
   nameHiragana: string;
+  nameSwedish: string;
   nameEnglish: string;
   image: string | null;
 }

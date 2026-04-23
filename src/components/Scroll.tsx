@@ -10,7 +10,7 @@ export function Scroll({ children, footer, scrollable }: ScrollProps) {
   return (
     <div className={`d-flex flex-column scroll-shadow ${scrollable ? 'scroll-scrollable' : ''}`}>
       <div className="scroll-mount scroll-mount-top bg-kq-mount" />
-      <div className={`scroll-body flex-grow-1 p-4 border border-primary border-2 ${scrollable ? 'overflow-auto' : ''}`}>
+      <div className={`scroll-body flex-grow-1 p-4 ${scrollable ? 'overflow-auto' : ''}`}>
         {children}
       </div>
       {footer && (

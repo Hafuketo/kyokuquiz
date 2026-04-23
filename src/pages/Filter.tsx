@@ -1,8 +1,9 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Stack, Button } from 'react-bootstrap'
+import { useTranslation } from 'react-i18next'
 import { PageLayout, Scroll } from '../components/Scroll'
-import type { Category } from '../data/types'
+import type { Category, DictionaryCategory } from '../data/types'
 
 const GRADES: { label: string; value: number }[] = [
   { label: '10 kyu', value: 10 },
@@ -18,21 +19,40 @@ const GRADES: { label: string; value: number }[] = [
   { label: '1 dan',  value: -1 },
 ]
 
-const CATEGORIES: { label: string; value: Category }[] = [
-  { label: 'Kick',      value: 'kick'      },
-  { label: 'Punch',     value: 'punch'     },
-  { label: 'Strike',    value: 'strike'    },
-  { label: 'Block',     value: 'block'     },
-  { label: 'Stance',    value: 'stance'    },
-  { label: 'Kata',      value: 'kata'      },
-  { label: 'Breathing', value: 'breathing' },
+const TECH_CATEGORIES: { key: string; value: Category }[] = [
+  { key: 'cat_kick',   value: 'kick'   },
+  { key: 'cat_punch',  value: 'punch'  },
+  { key: 'cat_strike', value: 'strike' },
+  { key: 'cat_block',  value: 'block'  },
+  { key: 'cat_stance', value: 'stance' },
+  { key: 'cat_kata',   value: 'kata'   },
+]
+
+const OTHER_CATEGORIES: { key: string; value: Category | DictionaryCategory }[] = [
+  { key: 'cat_breathing',     value: 'breathing'     },
+  { key: 'cat_hand_position', value: 'hand_position' },
+  { key: 'cat_foot_position', value: 'foot_position' },
+  { key: 'cat_body_part',     value: 'body_part'     },
+  { key: 'cat_level',         value: 'level'         },
+  { key: 'cat_direction',     value: 'direction'     },
+  { key: 'cat_modifier',      value: 'modifier'      },
+  { key: 'cat_action',        value: 'action'        },
+]
+
+const EXTRA_CATEGORIES: { key: string; value: DictionaryCategory }[] = [
+  { key: 'cat_number',      value: 'number'      },
+  { key: 'cat_tournament',  value: 'tournament'  },
+  { key: 'cat_terminology', value: 'terminology' },
 ]
 
 export default function Filter() {
   const navigate = useNavigate()
+  const { t } = useTranslation()
 
   const [selectedGrades, setSelectedGrades] = useState<number[]>(GRADES.map(g => g.value))
-  const [selectedCategories, setSelectedCategories] = useState<Category[]>(CATEGORIES.map(c => c.value))
+  const [selectedCategories, setSelectedCategories] = useState<Category[]>(TECH_CATEGORIES.map(c => c.value))
+  const [selectedOther, setSelectedOther] = useState<(Category | DictionaryCategory)[]>([])
+  const [selectedExtras, setSelectedExtras] = useState<DictionaryCategory[]>([])
   const [includeDojokun, setIncludeDojokun] = useState(false)
   const [includeMottoes, setIncludeMottoes] = useState(false)
 
@@ -46,29 +66,45 @@ export default function Filter() {
     )
   }
 
-  const canStart = selectedGrades.length > 0 &&
-    (selectedCategories.length > 0 || includeDojokun || includeMottoes)
+  function toggleOther(value: Category | DictionaryCategory) {
+    setSelectedOther(prev =>
+      prev.includes(value) ? prev.filter(c => c !== value) : [...prev, value]
+    )
+  }
+
+  function toggleExtra(value: DictionaryCategory) {
+    setSelectedExtras(prev =>
+      prev.includes(value) ? prev.filter(c => c !== value) : [...prev, value]
+    )
+  }
+
+  const canStart = selectedGrades.length > 0 && (
+    selectedCategories.length > 0 || selectedOther.length > 0 ||
+    selectedExtras.length > 0 || includeDojokun || includeMottoes
+  )
 
   function handleStart() {
     const params = new URLSearchParams({
-      grades: selectedGrades.join(','),
+      grades:     selectedGrades.join(','),
       categories: selectedCategories.join(','),
-      dojokun: includeDojokun ? '1' : '0',
-      mottoes: includeMottoes ? '1' : '0',
+      other:      selectedOther.join(','),
+      extras:     selectedExtras.join(','),
+      dojokun:    includeDojokun ? '1' : '0',
+      mottoes:    includeMottoes ? '1' : '0',
     })
-    navigate(`/game/quiz?${params}`)
+    navigate(`/quiz/game?${params}`)
   }
 
   return (
     <PageLayout colProps={{ xs: 12, sm: 10, md: 7, lg: 6, xl: 5 }} align="start">
       <Scroll scrollable footer={
         <Button variant="dark" size="lg" className="w-100" disabled={!canStart} onClick={handleStart}>
-          Start
+          {t('filter.start')}
         </Button>
       }>
         <Stack gap={4}>
 
-          <Section title="My grade — select up to">
+          <Section title={t('filter.gradeSection')}>
             <div className="d-flex flex-wrap gap-2">
               {GRADES.map(g => (
                 <Button key={g.value} size="sm"
@@ -81,23 +117,46 @@ export default function Filter() {
             </div>
           </Section>
 
-          <Section title="Technique types">
+          <Section title={t('filter.techSection')}>
             <div className="d-flex flex-wrap gap-2">
-              {CATEGORIES.map(c => (
+              {TECH_CATEGORIES.map(c => (
                 <Button key={c.value} size="sm"
                   variant={selectedCategories.includes(c.value) ? 'warning' : 'outline-secondary'}
                   onClick={() => toggleCategory(c.value)}
                 >
-                  {c.label}
+                  {t(`filter.${c.key}`)}
+                </Button>
+              ))}
+            </div>
+            <p className="mb-1 mt-3 text-uppercase fw-semibold text-kq-mid fs-xs ls-label">
+              {t('filter.otherSection')}
+            </p>
+            <div className="d-flex flex-wrap gap-2">
+              {OTHER_CATEGORIES.map(c => (
+                <Button key={c.value} size="sm"
+                  variant={selectedOther.includes(c.value) ? 'warning' : 'outline-secondary'}
+                  onClick={() => toggleOther(c.value)}
+                >
+                  {t(`filter.${c.key}`)}
                 </Button>
               ))}
             </div>
           </Section>
 
-          <Section title="Also include">
+          <Section title={t('filter.includeSection')}>
+            <div className="d-flex flex-wrap gap-2 mb-2">
+              {EXTRA_CATEGORIES.map(c => (
+                <Button key={c.value} size="sm"
+                  variant={selectedExtras.includes(c.value) ? 'warning' : 'outline-secondary'}
+                  onClick={() => toggleExtra(c.value)}
+                >
+                  {t(`filter.${c.key}`)}
+                </Button>
+              ))}
+            </div>
             <Stack gap={2}>
-              <ToggleRow emoji="🥋" label="Dojo kun"       active={includeDojokun}  onToggle={() => setIncludeDojokun(v => !v)} />
-              <ToggleRow emoji="📜" label="Sosai's mottos"  active={includeMottoes}   onToggle={() => setIncludeMottoes(v => !v)} />
+              <ToggleRow emoji="🥋" label={t('filter.dojokun')} active={includeDojokun} onToggle={() => setIncludeDojokun(v => !v)} />
+              <ToggleRow emoji="📜" label={t('filter.mottos')}  active={includeMottoes} onToggle={() => setIncludeMottoes(v => !v)} />
             </Stack>
           </Section>
 
