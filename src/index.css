@@ -1,0 +1,122 @@
+:root {
+  --kq-wall:      #f0e9dc;
+  --kq-mount:     #8b5e3c;
+  --kq-scroll:    #faf7f2;
+  --kq-ink:       #0a0500;
+  --kq-ink-mid:   #5c3c20;
+  --kq-gold:      #8b6018;
+  --kq-border:    #c0a070;
+  --kq-rice:      #faf7f2;
+  --kq-seal:      #8b1a1a;
+
+  --bs-body-bg:         var(--kq-wall);
+  --bs-body-color:      var(--kq-ink);
+  --bs-secondary-color: var(--kq-ink-mid);
+  --bs-border-color:    var(--kq-border);
+}
+
+/* ── Color utilities ─────────────────────────────────── */
+.text-kq-ink  { color: var(--kq-ink)     !important; }
+.text-kq-mid  { color: var(--kq-ink-mid) !important; }
+.text-kq-gold { color: var(--kq-gold)    !important; }
+.text-kq-seal { color: var(--kq-seal)    !important; }
+
+.bg-kq-wall   { background-color: var(--kq-wall)   !important; }
+.bg-kq-mount  { background-color: var(--kq-mount)  !important; }
+.bg-kq-scroll { background-color: var(--kq-scroll) !important; }
+
+/* ── Scroll structure ────────────────────────────────── */
+.scroll-shadow {
+  box-shadow: 0 4px 24px rgba(80, 40, 10, 0.22), 0 1px 6px rgba(80, 40, 10, 0.12);
+}
+
+.scroll-mount {
+  height: 28px;
+  flex-shrink: 0;
+}
+.scroll-mount-top    { border-radius: 6px 6px 0 0; }
+.scroll-mount-bottom { border-radius: 0 0 6px 6px; }
+
+.scroll-body {
+  background-color: var(--kq-scroll);
+  min-height: 0; /* lets flex children shrink and scroll */
+}
+
+.scroll-scrollable { max-height: 88vh; }
+
+/* ── Footer ──────────────────────────────────────────── */
+.page-footer {
+  background-color: #0e0501;
+  border-top: 1px solid #2c1206;
+}
+
+.footer-btn {
+  --bs-btn-color:              var(--kq-rice);
+  --bs-btn-border-color:       rgba(240, 228, 200, 0.35);
+  --bs-btn-hover-color:        var(--kq-ink);
+  --bs-btn-hover-bg:           var(--kq-rice);
+  --bs-btn-hover-border-color: var(--kq-rice);
+  --bs-btn-active-color:       var(--kq-ink);
+  --bs-btn-active-bg:          var(--kq-scroll);
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+}
+
+/* ── Typography extras ───────────────────────────────── */
+.ls-wide  { letter-spacing: 0.12em !important; }
+.ls-label { letter-spacing: 0.15em !important; }
+.fs-xs    { font-size: 0.7rem      !important; }
+
+/* ── Button variants ─────────────────────────────────── */
+.btn-dark {
+  --bs-btn-bg:                  var(--kq-ink);
+  --bs-btn-color:               var(--kq-rice);
+  --bs-btn-border-color:        var(--kq-ink);
+  --bs-btn-hover-bg:            #1e0e04;
+  --bs-btn-hover-color:         var(--kq-rice);
+  --bs-btn-hover-border-color:  #1e0e04;
+  --bs-btn-active-bg:           #000;
+  --bs-btn-active-color:        var(--kq-rice);
+  --bs-btn-disabled-bg:         #c0a888;
+  --bs-btn-disabled-color:      var(--kq-rice);
+  --bs-btn-disabled-border-color: #c0a888;
+}
+
+.btn-outline-dark {
+  --bs-btn-color:               var(--kq-ink);
+  --bs-btn-border-color:        var(--kq-ink);
+  --bs-btn-hover-color:         var(--kq-rice);
+  --bs-btn-hover-bg:            var(--kq-ink);
+  --bs-btn-hover-border-color:  var(--kq-ink);
+  --bs-btn-active-color:        var(--kq-rice);
+  --bs-btn-active-bg:           #000;
+  --bs-btn-disabled-color:      var(--kq-border);
+  --bs-btn-disabled-border-color: var(--kq-border);
+}
+
+.btn-warning {
+  --bs-btn-bg:                  var(--kq-gold);
+  --bs-btn-color:               var(--kq-rice);
+  --bs-btn-border-color:        var(--kq-gold);
+  --bs-btn-hover-bg:            #a07020;
+  --bs-btn-hover-color:         var(--kq-rice);
+  --bs-btn-hover-border-color:  #a07020;
+  --bs-btn-active-bg:           #7a5012;
+  --bs-btn-active-color:        var(--kq-rice);
+}
+
+.btn-outline-secondary {
+  --bs-btn-color:               var(--kq-ink-mid);
+  --bs-btn-border-color:        var(--kq-border);
+  --bs-btn-hover-color:         var(--kq-ink);
+  --bs-btn-hover-bg:            #ede3d0;
+  --bs-btn-hover-border-color:  var(--kq-border);
+  --bs-btn-active-color:        var(--kq-ink);
+  --bs-btn-active-bg:           #e4d8c2;
+  --bs-btn-disabled-color:      var(--kq-border);
+  --bs-btn-disabled-border-color: var(--kq-border);
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}

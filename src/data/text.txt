@@ -1,0 +1,3562 @@
+<html>
+
+<head><script src="//archive.org/includes/athena.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app241.us.archive.org';v.server_ms=579;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://www.musashi.nl:80/Engels/terminologyeng.htm","20050905225417","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1125960857");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>Kyokushin Terminology</title>
+
+<script language="Javascript">
+<!--
+
+if(document.layers||document.all) {
+	up_kankus=new Image(40,40);
+	up_kankus.src="images/b_kanku_s_u.gif";
+	down_kankus=new Image(40,40);
+	down_kankus.src="images/b_kanku_s_d.gif";
+	
+	up_back=new Image(40,40);
+	up_back.src="images/b_back_u.gif";
+	down_back=new Image(40,40);
+	down_back.src="images/b_back_d.gif";
+}
+
+function FF_button(bname,bposition) {
+	if(document.layers||document.all) {
+		document[bname].src=eval(bposition + "_" + bname + ".src");
+		}
+	}
+
+//-->
+</script>
+
+<script language="Javascript"><!--
+
+var message="Musashi Kyokushin Karate";
+function click(e)
+   {
+   if (document.all) {
+      if (event.button == 2) {
+         alert(message);
+         return false;
+      }
+   }
+   if (document.layers) {
+      if (e.which == 3) {
+         alert(message);
+         return false;
+      }
+   }
+   }
+   if (document.layers) {
+      document.captureEvents(Event.MOUSEDOWN);
+   }
+   document.onmousedown=click;
+// --></script>
+
+<script language="Javascript"><!--
+
+var message="Musashi Kyokushin Karate";
+function click(e)
+   {
+   if (document.all) {
+      if (event.button == 2) {
+         alert(message);
+         return false;
+      }
+   }
+   if (document.layers) {
+      if (e.which == 3) {
+         alert(message);
+         return false;
+      }
+   }
+   }
+   if (document.layers) {
+      document.captureEvents(Event.MOUSEDOWN);
+   }
+   document.onmousedown=click;
+// --></script>
+
+<script language="JavaScript1.2">
+
+function disableselect(e){
+return false
+}
+
+function reEnable(){
+return true
+}
+
+//if IE4+
+document.onselectstart=new Function ("return false")
+
+//if NS6
+if (window.sidebar){
+document.onmousedown=disableselect
+document.onclick=reEnable
+}
+</script>
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false" onselectstart="return false" background="/web/20050905225417im_/https://musashi.nl/gif/KYIKUS.gif" bgproperties="fixed" text="#000000" link="#0000FF" vlink="#800000" alink="#800000"><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display:none;direction:ltr;" toolbar-mode="auto">
+<div id="wm-ipp" style="position:fixed;left:0;top:0;right:0;">
+<div id="donato" style="position:relative;width:100%;height:0;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="https://archive.org/includes/donate.php?as_page=1&amp;platform=wb&amp;referer=https%3A//web.archive.org/web/20050905225417/https%3A//musashi.nl/engels/terminologyeng.htm"
+	    scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><div id="wm-ipp-inside">
+  <div id="wm-toolbar" style="position:relative;display:flex;flex-flow:row nowrap;justify-content:space-between;" nav="async">
+    <div id="wm-logo" style="/*width:110px;*/padding-top:12px;">
+      <a href="/web/" title="Wayback Machine home page"><img src="https://web-static.archive.org/_static/images/toolbar/wayback-toolbar-logo-200.png" srcset="https://web-static.archive.org/_static/images/toolbar/wayback-toolbar-logo-100.png, https://web-static.archive.org/_static/images/toolbar/wayback-toolbar-logo-150.png 1.5x, https://web-static.archive.org/_static/images/toolbar/wayback-toolbar-logo-200.png 2x" alt="Wayback Machine" style="width:100px" border="0" /></a>
+    </div>
+    <div class="c" style="display:flex;flex-flow:column nowrap;justify-content:space-between;flex:1;">
+      <form class="u" style="display:flex;flex-direction:row;flex-wrap:nowrap;" target="_top" method="get" action="/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="https://musashi.nl/engels/terminologyeng.htm" onfocus="this.focus();this.select();" style="flex:1;"/><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20050905225417" /><input type="submit" value="Go" />
+      </form>
+      <div style="display:flex;flex-flow:row nowrap;align-items:flex-end;">
+                <div class="s" id="wm-nav-captures" style="flex:1;">
+                    <a class="t" href="/web/20050905225417*/https://musashi.nl/engels/terminologyeng.htm" title="See a list of every capture for this URL">16 captures</a>
+          <div class="r" title="Timespan for captures of this URL">09 Jun 2002 - 29 Sep 2005</div>
+          </div>
+        <div class="k">
+          <a href="" id="wm-graph-anchor">
+            <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+              <canvas id="wm-sparkline-canvas" width="775" height="27" border="0"></canvas>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="n">
+      <table>
+        <tbody>
+          <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+          <tr class="m">
+            <td class="b" nowrap="nowrap">Aug</td>
+            <td class="c" id="displayMonthEl" title="You are here: 22:54:17 Sep 05, 2005">SEP</td>
+            <td class="f" nowrap="nowrap">Oct</td>
+          </tr>
+          <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+          <tr class="d">
+            <td class="b" nowrap="nowrap"><span class="ta"></span></td>
+            <td class="c" id="displayDayEl" style="width:34px;font-size:22px;white-space:nowrap;" title="You are here: 22:54:17 Sep 05, 2005">05</td>
+            <td class="f" nowrap="nowrap"><span class="ta"></span></td>
+          </tr>
+          <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+          <tr class="y">
+            <td class="b" nowrap="nowrap">2004</td>
+            <td class="c" id="displayYearEl" title="You are here: 22:54:17 Sep 05, 2005">2005</td>
+            <td class="f" nowrap="nowrap">2006</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="r" style="display:flex;flex-flow:column nowrap;align-items:flex-end;justify-content:space-between;">
+      <div id="wm-btns" style="text-align:right;height:23px;">
+                <span class="xxs">
+          <div id="wm-save-snapshot-success">success</div>
+          <div id="wm-save-snapshot-fail">fail</div>
+          <a id="wm-save-snapshot-open" href="#" title="Share via My Web Archive" >
+            <span class="iconochive-web"></span>
+          </a>
+          <a href="https://archive.org/account/login.php" title="Sign In" id="wm-sign-in">
+            <span class="iconochive-person"></span>
+          </a>
+          <span id="wm-save-snapshot-in-progress" class="iconochive-web"></span>
+        </span>
+                <a class="xxs" href="https://help.archive.org/help/category/the-wayback-machine/" title="Get some help using the Wayback Machine" style="top:-6px;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+        <a id="wm-tb-close" href="#close" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+      </div>
+      <div id="wm-share" class="xxs">
+        <a href="/web/20050905225417/http://web.archive.org/screenshot/https://musashi.nl/engels/terminologyeng.htm"
+           id="wm-screenshot"
+           title="screenshot">
+          <span class="wm-icon-screen-shot"></span>
+        </a>
+        <a href="#" id="wm-video" title="video">
+          <span class="iconochive-movies"></span>
+        </a>
+        <a id="wm-share-facebook" href="#" data-url="https://web.archive.org/web/20050905225417/http://www.musashi.nl:80/Engels/terminologyeng.htm" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+        <a id="wm-share-twitter" href="#" data-url="https://web.archive.org/web/20050905225417/http://www.musashi.nl:80/Engels/terminologyeng.htm" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+      </div>
+      <div style="padding-right:2px;text-align:right;white-space:nowrap;">
+        <a id="wm-expand" class="wm-btn wm-closed" href="#expand"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span class="xxs" style="font-size:80%;">About this capture</span></a>
+      </div>
+    </div>
+  </div>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+        <div id="wm-capinfo-notice" source="api"></div>
+                <div id="wm-capinfo-collected-by">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center;padding:2px 0;">COLLECTED BY</div>
+    <div style="padding:3px;position:relative" id="wm-collected-by-content">
+            <div style="display:inline-block;vertical-align:top;width:50%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/alexacrawls);"></span>
+		Organization: <a style="color:#33f;" href="https://archive.org/details/alexacrawls" target="_new"><span class="wm-title">Alexa Crawls</span></a>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Starting in 1996, <a href="http://www.alexa.com/">Alexa Internet</a> has been donating their crawl data to the Internet Archive.  Flowing in every day, these data are added to the <a href="http://web.archive.org/">Wayback Machine</a> after an embargo period.
+	</div>
+	      </div>
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/alexa_ee)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/alexa_ee" target="_new"><span class="wm-title">Alexa Crawl EE</span></a></div>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Crawl EE from Alexa Internet.  This data is currently not publicly accessible.
+	</div>
+	      </div>
+    </div>
+    </div>
+    <div id="wm-capinfo-timestamps">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center;padding:2px 0;" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+    <div>
+      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="https://web-static.archive.org/_static/images/loading.gif" alt="loading" /></div>
+    </div>
+    </div>
+  </div></div></div></div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20050905225417/http://www.musashi.nl:80/Engels/terminologyeng.htm</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(775,27,25,2,"web","https://musashi.nl/engels/terminologyeng.htm","20050905225417",1996,"https://web-static.archive.org/_static/",["https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3","https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+ 
+
+<div align="center">
+  <center>
+
+<table border="0" width="580" cellspacing="0" cellpadding="0" height="7310">
+  <tr>
+    <td width="498" colspan="3" height="22">
+
+<p align="center"><a name="TOP"></a><img border="0" src="/web/20050905225417im_/https://musashi.nl/gif/kyokushin.gif" width="299" height="52"><a name="TOP"><br>
+<br>
+</a><img border="0" src="/web/20050905225417im_/https://musashi.nl/gif/terminologie.gif" width="400" height="52">
+
+</p>
+<p align="center">&nbsp;
+
+</p>
+  
+    </td>
+  </tr>
+  <tr>
+    <td width="498" height="22" colspan="3">
+      <p align="center"><a href="#BASIC  TECHNIQUES"><font face="Arial" size="2"><span style="font-variant: small-caps">BASIC  TECHNIQUES</span></font></a><font face="Arial" size="2"><span style="font-variant: small-caps">
+      | <a href="#WEAPONS">WEAPONS</a> | <a href="#TARGETS  &amp;  DIRECTIONS">TARGETS  &amp;  DIRECTIONS</a>
+      | <a href="#STANCES">STANCES</a> | <a href="#PUNCHING TECHNIQUES">PUNCHING TECHNIQUES</a>
+      | <a href="#STRIKING  TECHNIQUES">STRIKING  TECHNIQUES</a> |<a href="#BLOCKING  TECHNIQUES">BLOCKING  TECHNIQUES</a>
+      | <a href="#KICKING  TECHNIQUES">KICKING  TECHNIQUES</a> | <a href="#BASIC  TERMINOLOGY">BASIC  TERMINOLOGY</a>
+      | <a href="#TOURNAMENT  TERMINOLOGY">TOURNAMENT  TERMINOLOGY</a> | <a href="#NUMBERS">NUMBERS</a></span></font></td>
+  </tr>
+  <tr>
+    <td width="192" height="22"></td>
+    <td width="200" height="22"></td>
+    <td width="201" height="22"></td>
+  </tr>
+  <tr>
+    <td width="192" height="22"></td>
+    <td width="200" height="22"></td>
+    <td width="201" height="22"></td>
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22"><b><font color="#800000">KIHON&nbsp; WAZA</font></b></td>
+    <td width="200" height="22"><b><font color="#800000"><a name="BASIC  TECHNIQUES">BASIC&nbsp;
+      TECHNIQUES</a></font></b></td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/kihon.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/waza.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Tsuki</td>
+    <td width="200" height="22">Punch (thrust)</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/tsuki.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Uchi</td>
+    <td width="200" height="22">Strike</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/uchi.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Uke</td>
+    <td width="200" height="22">Block</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/uke.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Geri</td>
+    <td width="200" height="22">Kick</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/geri.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+    <td width="192" height="22"></td>
+    <td width="200" height="22">
+      </td>
+    <td width="201" height="22"></td>
+  </tr>
+  <tr>
+    <td width="192" height="22"></td>
+    <td width="200" height="22">
+      <p align="center"><font face="Arial" size="2"><span style="font-variant: small-caps"><a href="#TOP">TOP</a></span></font>
+      </td>
+    <td width="201" height="22"></td>
+  </tr>
+  <tr>
+    <td width="192" height="22"></td>
+    <td width="200" height="22">
+      </td>
+    <td width="201" height="22"></td>
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22"><b><font color="#800000">BUKI</font></b></td>
+    <td width="200" height="22"><b><font color="#800000"><a name="WEAPONS">WEAPONS</a></font></b>
+      </td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/buki.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Ashi</td>
+    <td width="200" height="22">Foot or Leg</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ashi.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Chusoku</td>
+    <td width="200" height="22">Ball (middle) of the Foot</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/chusoku.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Haisho</td>
+    <td width="200" height="22">Backhand</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/haisho.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Haisoku</td>
+    <td width="200" height="22">Instep of the Foot</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/haisoku.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Haito</td>
+    <td width="200" height="22">Inner Knife Hand</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/haito.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Hiji</td>
+    <td width="200" height="22">Elbow</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/hiji.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Hiraken</td>
+    <td width="200" height="22">Flat Fist</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/hiraken.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Hiza</td>
+    <td width="200" height="22">Knee</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/hiza.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Kakato</td>
+    <td width="200" height="22">Heel</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/kakato.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Keiko</td>
+    <td width="200" height="22">Chicken Beak</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/keiko.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Koken</td>
+    <td width="200" height="22">Wrist Top</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/koken.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Kote</td>
+    <td width="200" height="22">Forearm</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/kote.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Nakayubi Ippon Ken</td>
+    <td width="200" height="22">Middle Finger Knuckle Fist</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/nakayubi.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ippon.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ken.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Nukite</td>
+    <td width="200" height="22">Spear Hand</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/nukite.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Oyayubi Ippon Ken</td>
+    <td width="200" height="22">Thumb Knuckle Fist</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/oyayubi.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ippon.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ken.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Ryutoken</td>
+    <td width="200" height="22">Dragon's Head Fist</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ryutoken.gif" width="67" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Seiken</td>
+    <td width="200" height="22">Forefist (correct fist)</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/seiken.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Shotei</td>
+    <td width="200" height="22">Palm Heel</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/shotei.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Shuto</td>
+    <td width="200" height="22">Knife Hand</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/shuto.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Sokuto</td>
+    <td width="200" height="22">Outside (knife) Edge of the Foot</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/sokuto.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Sune</td>
+    <td width="200" height="22">Shin</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/sune.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Te</td>
+    <td width="200" height="22">Hand</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/te.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Teisoku</td>
+    <td width="200" height="22">Arch of the Foot</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/teisoku.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Tetsui</td>
+    <td width="200" height="22">Hammer Fist</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/tetsui.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Toho</td>
+    <td width="200" height="22">Sword Peak Hand</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/toho.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Uraken</td>
+    <td width="200" height="22">Backfist</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/uraken.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+    <td width="192" height="22"></td>
+    <td width="200" height="22">
+    </td>
+    <td width="201" height="22"></td>
+  </tr>
+  <tr>
+    <td width="192" height="22"></td>
+    <td width="200" height="22">
+      <p align="center"><font face="Arial" size="2"><span style="font-variant: small-caps"><a href="#TOP">TOP</a></span></font>
+    </td>
+    <td width="201" height="22"></td>
+  </tr>
+  <tr>
+    <td width="192" height="22"></td>
+    <td width="200" height="22">
+    </td>
+    <td width="201" height="22"></td>
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22"><b><font color="#800000">NERAIDOKORO&nbsp; KOGEKIHOKO</font></b></td>
+    <td width="200" height="22"><font color="#800000"><b><a name="TARGETS  &amp;  DIRECTIONS">TARGETS&nbsp;
+      &amp;&nbsp; DIRECTIONS</a></b>
+      </font>
+    </td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/nerai_kogeki.gif" width="156" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Age</td>
+    <td width="200" height="22">Rising</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/age.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Ago</td>
+    <td width="200" height="22">Chin or Jaw</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ago.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Atama</td>
+    <td width="200" height="22">Head</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/atama.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Chudan</td>
+    <td width="200" height="22">Middle Level</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/chudan.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Ganmen</td>
+    <td width="200" height="22">Face</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ganmen.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Gedan</td>
+    <td width="200" height="22">Lower Level</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/gedan.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Hana</td>
+    <td width="200" height="22">Nose</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/hana.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Hara</td>
+    <td width="200" height="22">Abdomen</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/hara.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Hidari</td>
+    <td width="200" height="22">Left</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/hidari.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Hizo</td>
+    <td width="200" height="22">Spleen</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/hizo.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Jodan</td>
+    <td width="200" height="22">Upper Level</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/jodan.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Johanshin</td>
+    <td width="200" height="22">Upper Body</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/jo.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/hanmi.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Kahanshin</td>
+    <td width="200" height="22">Lower Body</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ge.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/hanmi.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Kake</td>
+    <td width="200" height="22">Hooked</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/kake.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Kansetsu</td>
+    <td width="200" height="22">Joint (of limb)</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/kansetsu.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Kata</td>
+    <td width="200" height="22">Shoulder</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/katas.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Kintama (Kin)</td>
+    <td width="200" height="22">Groin, Testicles<br>
+      (gold jewels)</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/kintama.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Komekami</td>
+    <td width="200" height="22">Temple</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/komekami.gif" width="67" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Kubi</td>
+    <td width="200" height="22">Neck</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/kubi.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Kuchi</td>
+    <td width="200" height="22">Mouth</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/kuchi.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Mae</td>
+    <td width="200" height="22">Front, Forward</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/mae.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Mawashi</td>
+    <td width="200" height="22">Round, Circular</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/mawashi.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Me</td>
+    <td width="200" height="22">Eye(s)</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/me.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Migi</td>
+    <td width="200" height="22">Right</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/migi.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Mimi</td>
+    <td width="200" height="22">Ear(s)</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/mimi.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Mizo-ochi</td>
+    <td width="200" height="22">Solar Plexus</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/mizoochi.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Momo</td>
+    <td width="200" height="22">Thigh</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/momo.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Mune</td>
+    <td width="200" height="22">Chest</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/mune.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Naname</td>
+    <td width="200" height="22">Diagonal</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/naname.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Nodo</td>
+    <td width="200" height="22">Throat</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/nodo.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Oroshi</td>
+    <td width="200" height="22">Descending</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/oroshi.gif" width="67" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Rokkotsu</td>
+    <td width="200" height="22">Rib(s)</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/rokkotsu.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Sakotsu</td>
+    <td width="200" height="22">Collarbone</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/sakotsu.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Sayu</td>
+    <td width="200" height="22">Left and Right</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/sayu.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Soto</td>
+    <td width="200" height="22">Outside</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/soto.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Tobi</td>
+    <td width="200" height="22">Jumping</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/tobi.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Uchi</td>
+    <td width="200" height="22">Inside</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/uchi_inside.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Ude</td>
+    <td width="200" height="22">Arm</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ude.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Ura</td>
+    <td width="200" height="22">Reverse, Backwards</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ura.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Ushiro</td>
+    <td width="200" height="22">Back (direction)</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ushiro.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Yoko</td>
+    <td width="200" height="22">Side (direction)</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/yoko.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+    <td width="192" height="22"></td>
+    <td width="200" height="22"></td>
+    <td width="201" height="22"></td>
+  </tr>
+  <tr>
+    <td width="192" height="22"></td>
+    <td width="200" height="22">
+      <p align="center"><font face="Arial" size="2"><span style="font-variant: small-caps"><a href="#TOP">TOP</a></span></font></td>
+    <td width="201" height="22"></td>
+  </tr>
+  <tr>
+    <td width="192" height="22"></td>
+    <td width="200" height="22"></td>
+    <td width="201" height="22"></td>
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22"><b><font color="#800000">DACHI</font></b></td>
+    <td width="200" height="22"><font color="#800000"><b><a name="STANCES">STANCES</a></b></font></td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/dachi.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Yoi Dachi</td>
+    <td width="200" height="22">Ready Stance</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/yoi.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/dachi.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Fudo Dachi</td>
+    <td width="200" height="22">Immobile Stance</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/fudo.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/dachi.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Zenkutsu Dachi</td>
+    <td width="200" height="22">Forward Leaning Stance</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/zenkutsu.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/dachi.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Uchi Hachiji Dachi</td>
+    <td width="200" height="22">Inside Character &quot;8&quot; Stance</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/uchi_inside.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/hachi.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ji.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/dachi.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Sanchin Dachi</td>
+    <td width="200" height="22">Three Point Stance</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/sanchin.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/dachi.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Kokutsu Dachi</td>
+    <td width="200" height="22">Back Leaning Stance</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/kokutsu.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/dachi.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Musubi Dachi</td>
+    <td width="200" height="22">Open Foot (connected) Stance</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/musubi.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/dachi.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Kiba Dachi</td>
+    <td width="200" height="22">Horseback Stance</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/kiba.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/dachi.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Neko Ashi Dachi</td>
+    <td width="200" height="22">Cat Stance</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/neko.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ashi.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/dachi.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Tsuru Ashi Dachi</td>
+    <td width="200" height="22">Crane Stance</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/tsuru.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ashi.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/dachi.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Moro Ashi Dachi</td>
+    <td width="200" height="22">One Foot Forward (two-foot) 
+      Stance</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/moro.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ashi.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/dachi.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Heisoku Dachi</td>
+    <td width="200" height="22">Closed Foot Stance</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/heisoku.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/dachi.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Heiko Dachi</td>
+    <td width="200" height="22">Parallel Stance</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/heiko.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/dachi.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Yonjugodo<br>Kiba Dachi</td>
+    <td width="200" height="22">Forty-Five Degree<br>Horseback Stance</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/shi.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ju.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/go.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/do.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/kiba.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/dachi.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Kake Dachi</td>
+    <td width="200" height="22">Hooked Stance</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/kake.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/dachi.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Soto Hachiji Dachi</td>
+    <td width="200" height="22">Outside Character &quot;8&quot; Stance</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/soto.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/hachi.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ji.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/dachi.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Shiko Dachi</td>
+    <td width="200" height="22">Sumo Stance</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/shiko.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/dachi.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Kumite Dachi</td>
+    <td width="200" height="22">Fighting Stance</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/kumite.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/dachi.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Han Mi</td>
+    <td width="200" height="22">Half Body Stance</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/hanmi.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Migi Ashi Mae</td>
+    <td width="200" height="22">Right Foot Forward</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/migi.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ashi.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/mae.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Hidari Ashi Mae</td>
+    <td width="200" height="22">Left Foot Forward</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/hidari.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ashi.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/mae.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+    <td width="192" height="22"></td>
+    <td width="200" height="22"></td>
+    <td width="201" height="22"></td>
+  </tr>
+  <tr>
+    <td width="192" height="22"></td>
+    <td width="200" height="22">
+      <p align="center"><font face="Arial" size="2"><span style="font-variant: small-caps"><a href="#TOP">TOP</a></span></font></td>
+    <td width="201" height="22"></td>
+  </tr>
+  <tr>
+    <td width="192" height="22"></td>
+    <td width="200" height="22"></td>
+    <td width="201" height="22"></td>
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22"><b><font color="#800000">TSUKI&nbsp; WAZA</font></b></td>
+    <td width="200" height="22"><font color="#800000"><b><a name="PUNCHING TECHNIQUES">PUNCHING TECHNIQUES</a></b></font></td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/tsuki.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/waza.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Seiken –</td>
+    <td width="200" height="22">Forefist –</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/seiken.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">– Oi Tsuki</td>
+    <td width="200" height="22">– Lunge Punch</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/oi.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/tsuki.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">– Morote Tsuki</td>
+    <td width="200" height="22">– Two-Handed Punch</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/moro.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/te.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/tsuki.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">– Gyaku Tsuki</td>
+    <td width="200" height="22">– Reverse Punch</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/gyaku.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/tsuki.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">– Tate Tsuki</td>
+    <td width="200" height="22">– Vertical Punch</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/tate.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/tsuki.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">– Jun Tsuki</td>
+    <td width="200" height="22">– Side (corresponding)<br>
+      &nbsp;&nbsp; Punch</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/jun.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/tsuki.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Shita Tsuki</td>
+    <td width="200" height="22">Lower Punch</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/shita.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/tsuki.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+    <td width="192" height="22"></td>
+    <td width="200" height="22"></td>
+    <td width="201" height="22"></td>
+  </tr>
+  <tr>
+    <td width="192" height="22"></td>
+    <td width="200" height="22">
+      <p align="center"><font face="Arial" size="2"><span style="font-variant: small-caps"><a href="#TOP">TOP</a></span></font></td>
+    <td width="201" height="22"></td>
+  </tr>
+  <tr>
+    <td width="192" height="22"></td>
+    <td width="200" height="22"></td>
+    <td width="201" height="22"></td>
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22"><b><font color="#800000">UCHI&nbsp; WAZA</font></b></td>
+    <td width="200" height="22"><font color="#800000"><b><a name="STRIKING  TECHNIQUES">STRIKING&nbsp;
+      TECHNIQUES</a></b></font></td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/uchi.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/waza.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Seiken –</td>
+    <td width="200" height="22">Forefist –</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/seiken.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">– Ago Uchi</td>
+    <td width="200" height="22">– Chin / Jaw Strike</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ago.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/uchi.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22"> – Furi Ichi</td>
+    <td width="200" height="22"> – Hook Strike</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/furi.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/uchi.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Tetsui –</td>
+    <td width="200" height="22">Hammer Fist –</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/tetsui.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">– Oroshi Ganmen<br>
+      &nbsp;&nbsp; Uchi</td>
+    <td width="200" height="22">– Descending Face<br>
+      &nbsp;&nbsp; Strike</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/oroshi.gif" width="67" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ganmen.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/uchi.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">– Komekami Uchi</td>
+    <td width="200" height="22">– Temple Strike</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/komekami.gif" width="67" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/uchi.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">– Hizo Uchi</td>
+    <td width="200" height="22">– Spleen Strike</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/hizo.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/uchi.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">– Mae Yoko Uchi</td>
+    <td width="200" height="22">– Forward Side Strike</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/mae.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/yoko.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/uchi.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">– Yoko Uchi</td>
+    <td width="200" height="22">– Side Strike</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/yoko.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/uchi.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Uraken –</td>
+    <td width="200" height="22">Backfist –</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/uraken.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">– Ganmen Uchi</td>
+    <td width="200" height="22">– Face Strike</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ganmen.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/uchi.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">– Sayu Uchi</td>
+    <td width="200" height="22">– Left and Right Strike</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/sayu.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/uchi.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">– Hizo Uchi</td>
+    <td width="200" height="22">– Spleen Strike</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/hizo.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/uchi.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">– Oroshi Ganmen<br>
+      &nbsp;&nbsp; Uchi</td>
+    <td width="200" height="22">– Descending Face<br>
+      &nbsp;&nbsp; Strike</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/oroshi.gif" width="67" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ganmen.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/uchi.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">– Mawashi Uchi</td>
+    <td width="200" height="22">– Roundhouse Strike</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/mawashi.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/uchi.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Nihon Nukite</td>
+    <td width="200" height="22">Two-Fingered Spear Hand</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/nihon.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/nukite.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Yonhon Nukite</td>
+    <td width="200" height="22">Four-Fingered Spear Hand</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/yonhon.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/nukite.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Shotei Uchi</td>
+    <td width="200" height="22">Palm Heel Strike</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/shotei.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/uchi.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Shuto –</td>
+    <td width="200" height="22">Knife Hand –</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/shuto.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">– Sakotsu Uchi</td>
+    <td width="200" height="22">– Collarbone Strike</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/sakotsu.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/uchi.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">– Yoko Ganmen Uchi</td>
+    <td width="200" height="22">– Side Face Strike</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/yoko.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ganmen.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/uchi.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">– Sakotsu Uchikomi</td>
+    <td width="200" height="22">– Collarbone Driving<br>
+      &nbsp;&nbsp; Strike</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/sakotsu.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/uchi.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/komi.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">– Hizo Uchi</td>
+    <td width="200" height="22">– Spleen Strike</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/hizo.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/uchi.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">– Uchi Uchi</td>
+    <td width="200" height="22">– Inside Strike</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/uchi_inside.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/uchi.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Hiji Ate</td>
+    <td width="200" height="22">Elbow Strike</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/hiji.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ate.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Mae Hiji Ate</td>
+    <td width="200" height="22">Forward Elbow Strike</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/mae.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/hiji.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ate.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Age Hiji Ate</td>
+    <td width="200" height="22">Rising Elbow Strike</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/age.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/hiji.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ate.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Ushiro Hiji Ate</td>
+    <td width="200" height="22">Backwards Elbow Strike</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ushiro.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/hiji.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ate.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Oroshi Hiji Ate</td>
+    <td width="200" height="22">Descending Elbow Strike</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/oroshi.gif" width="67" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/hiji.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ate.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+    <td width="192" height="22"></td>
+    <td width="200" height="22"></td>
+    <td width="201" height="22"></td>
+  </tr>
+  <tr>
+    <td width="192" height="22"></td>
+    <td width="200" height="22">
+      <p align="center"><font face="Arial" size="2"><span style="font-variant: small-caps"><a href="#TOP">TOP</a></span></font></td>
+    <td width="201" height="22"></td>
+  </tr>
+  <tr>
+    <td width="192" height="22"></td>
+    <td width="200" height="22"></td>
+    <td width="201" height="22"></td>
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22"><b><font color="#800000">UKE&nbsp; WAZA</font></b></td>
+    <td width="200" height="22"><font color="#800000"><b><a name="BLOCKING  TECHNIQUES">BLOCKING&nbsp;
+      TECHNIQUES</a></b></font></td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/uke.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/waza.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Jodan Uke</td>
+    <td width="200" height="22">Upper Block</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/jodan.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/uke.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Gedan Barai</td>
+    <td width="200" height="22">Lower Parry</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/gedan.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/barai.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Chudan Uchi Uke</td>
+    <td width="200" height="22">Middle Area Inside Block</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/chudan.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/uchi_inside.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/uke.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Chudan Soto Uke</td>
+    <td width="200" height="22">Middle Area Outside Block</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/chudan.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/soto.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/uke.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Morote Chudan Uchi Uke</td>
+    <td width="200" height="22">Two-Handed Middle Area Inside 
+      Block</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/moro.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/te.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/chudan.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/uchi_inside.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/uke.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Chudan Uchi Uke Gedan Barai</td>
+    <td width="200" height="22">Middle Area Inside Block with Lower 
+      Parry</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/chudan.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/uchi_inside.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/uke.gif" width="45" height="20"><br>
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/gedan.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/barai.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Shuto Uke</td>
+    <td width="200" height="22">Knife Hand Block</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/shuto.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/uke.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Juji Uke</td>
+    <td width="200" height="22">Crossed Block</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ju.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ji.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/uke.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Kake Uke</td>
+    <td width="200" height="22">Hooked Block</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/kake.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/uke.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Shotei Uke</td>
+    <td width="200" height="22">Palm Heel Block</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/shotei.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/uke.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Mawashi Uke</td>
+    <td width="200" height="22">Circular Block</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/mawashi.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/uke.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+    <td width="192" height="22"></td>
+    <td width="200" height="22"></td>
+    <td width="201" height="22"></td>
+  </tr>
+  <tr>
+    <td width="192" height="22"></td>
+    <td width="200" height="22">
+      <p align="center"><font face="Arial" size="2"><span style="font-variant: small-caps"><a href="#TOP">TOP</a></span></font></td>
+    <td width="201" height="22"></td>
+  </tr>
+  <tr>
+    <td width="192" height="22"></td>
+    <td width="200" height="22"></td>
+    <td width="201" height="22"></td>
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22"><b><font color="#800000">GERI&nbsp; WAZA</font></b></td>
+    <td width="200" height="22"><font color="#800000"><b><a name="KICKING  TECHNIQUES">KICKING&nbsp;
+      TECHNIQUES</a></b></font></td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/geri.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/waza.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Hiza Ganmen Geri</td>
+    <td width="200" height="22">Knee Face Kick</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/hiza.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ganmen.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/geri.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Kin Geri</td>
+    <td width="200" height="22">Groin Kick</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/kin.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/geri.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Mae Geri</td>
+    <td width="200" height="22">Front Kick</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/mae.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/geri.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Mae Keage</td>
+    <td width="200" height="22">Front Rising Kick</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/mae.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/keage.gif" width="67" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Soto Mawashi Geri</td>
+    <td width="200" height="22">Outside Crescent Kick</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/soto.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/mawashi.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/geri.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Uchi Mawashi Geri</td>
+    <td width="200" height="22">Inside Crescent Kick</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/uchi_inside.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/mawashi.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/geri.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Yoko Keage</td>
+    <td width="200" height="22">Side Rising Kick</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/yoko.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/keage.gif" width="67" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Mawashi Geri</td>
+    <td width="200" height="22">Roundhouse Kick</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/mawashi.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/geri.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Kansetsu Geri</td>
+    <td width="200" height="22">Joint Kick</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/kansetsu.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/geri.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Yoko Geri</td>
+    <td width="200" height="22">Side Kick</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/yoko.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/geri.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Ushiro Geri</td>
+    <td width="200" height="22">Back Kick</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ushiro.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/geri.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Mae Kakato Geri</td>
+    <td width="200" height="22">Front Heel Kick</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/mae.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/kakato.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/geri.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Ago Geri</td>
+    <td width="200" height="22">Chin / Jaw Kick</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ago.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/geri.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Tobi Mae Geri</td>
+    <td width="200" height="22">Jumping Front Kick</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/tobi.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/mae.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/geri.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Ashi Barai</td>
+    <td width="200" height="22">Leg Sweep</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ashi.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/barai.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+    <td width="192" height="22"></td>
+    <td width="200" height="22"></td>
+    <td width="201" height="22"></td>
+  </tr>
+  <tr>
+    <td width="192" height="22"></td>
+    <td width="200" height="22">
+      <p align="center"><font face="Arial" size="2"><span style="font-variant: small-caps"><a href="#TOP">TOP</a></span></font></td>
+    <td width="201" height="22"></td>
+  </tr>
+  <tr>
+    <td width="192" height="22"></td>
+    <td width="200" height="22"></td>
+    <td width="201" height="22"></td>
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22"><b><font color="#800000">KIHON&nbsp; JUTSUGO</font></b></td>
+    <td width="200" height="22"><font color="#800000"><b><a name="BASIC  TERMINOLOGY">BASIC&nbsp;
+      TERMINOLOGY</a></b></font></td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/kihon.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/jutsugo.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Anza</td>
+    <td width="200" height="22">Relaxed Sitting</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/anza.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Arigato<br>Gozaimasu</td>
+    <td width="200" height="22">Thank You<br>(polite)</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/arigato.gif" width="89" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/gozaimasu.gif" width="112" height="22"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Budo</td>
+    <td width="200" height="22">Martial Way</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/budo.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Bunkai</td>
+    <td width="200" height="22">Application (analysis)</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/bunkai.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Dan</td>
+    <td width="200" height="22">Grade (Black Belt)</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/dan.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Dojo</td>
+    <td width="200" height="22">Training Hall (Way place)</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/dojo.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Dojo Kun</td>
+    <td width="200" height="22">Training Hall Oath</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/dojo.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/kun.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Dogi (Gi)</td>
+    <td width="200" height="22">Karate Uniform (Way clothes)</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/dogi.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Fumiashi</td>
+    <td width="200" height="22">Step (with a change of feet)</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/fumi.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ashi.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Goshin Jutsu</td>
+    <td width="200" height="22">Self-Defense Techniques</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/goshin.gif" width="67" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Gasshukoku</td>
+    <td width="200" height="22">United States</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/gasshukoku.gif" width="67" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Hajime</td>
+    <td width="200" height="22">Begin</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/hajime.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Hanshi</td>
+    <td width="200" height="22">Honorable Master</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/hanshi.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Hikite</td>
+    <td width="200" height="22">Pulling Hand</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/hikite.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Ibuki</td>
+    <td width="200" height="22">Forced Tension Breathing</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ibuki.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Idogeiko</td>
+    <td width="200" height="22">Moving Drills</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/idogeiko.gif" width="89" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Jisen Kumite</td>
+    <td width="200" height="22">Full-Contact Fighting</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/jisen.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/kumite.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Jiyu Kumite</td>
+    <td width="200" height="22">Free Fighting</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/jiyu.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/kumite.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Kamaete</td>
+    <td width="200" height="22">Take Ready Position</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/kamaete.gif" width="67" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Kami no Kamae</td>
+    <td width="200" height="22">Upper Body Posture</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/kami.gif" width="89" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Karate</td>
+    <td width="200" height="22">Empty Hand</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/karate.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Kata</td>
+    <td width="200" height="22">Form</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/kata.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Ki</td>
+    <td width="200" height="22">Inner Energy</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ki.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Kiai</td>
+    <td width="200" height="22">Explosive Scream</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/kiai.gif" width="67" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Kiai Irete</td>
+    <td width="200" height="22">With Explosive Energy</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/kiai.gif" width="67" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/irete.gif" width="67" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Kihon</td>
+    <td width="200" height="22">Basics</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/kihon.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Kihon Waza</td>
+    <td width="200" height="22">Basic Techniques</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/kihon.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/waza.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Kime</td>
+    <td width="200" height="22">Focus</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/kime.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Kohai</td>
+    <td width="200" height="22">Junior Student</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/kohai.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Kokusai</td>
+    <td width="200" height="22">International</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/kokusai.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Kosa</td>
+    <td width="200" height="22">Switch (i.e. switch stance L to R or 
+      R to L)</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/kosa.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Kotai</td>
+    <td width="200" height="22">Switch (i.e. partners switch places in
+      a drill)</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/kotai.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Kumite</td>
+    <td width="200" height="22">Fight</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/kumite.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Kyokushin</td>
+    <td width="200" height="22">Ultimate Truth</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/kyokushin.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Kyu</td>
+    <td width="200" height="22">Rank (below Black Belt)</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/kyu.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Maai</td>
+    <td width="200" height="22">Interval (between opponents)</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/maai.gif" width="67" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Makiwara</td>
+    <td width="200" height="22">Striking Post (straw wrapped)</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/makiwawa.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Mawatte</td>
+    <td width="200" height="22">Turn</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/mawatte.gif" width="67" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Mokuso</td>
+    <td width="200" height="22">Meditation (silent thought)</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/mokuso.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Mugorei</td>
+    <td width="200" height="22">No Counting (no commands)</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/mugorei.gif" width="67" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Mushin</td>
+    <td width="200" height="22">Without Thought (no mind)</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/mushin.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Naore</td>
+    <td width="200" height="22">Return to Starting Position</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/naore.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Nogare</td>
+    <td width="200" height="22">Calm, Controlled Breathing</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/nogare.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Obi</td>
+    <td width="200" height="22">Belt (sash)</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/obi.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Okuriashi</td>
+    <td width="200" height="22">Shuffle Step (sending foot)</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/okuri.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ashi.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Onegaishimasu</td>
+    <td width="200" height="22">Please (polite)</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/onegaishimasu.gif" width="134" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Osu</td>
+    <td width="200" height="22">Determination (push and endure)</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/osu.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Otagai</td>
+    <td width="200" height="22">Each Other</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/otagai.gif" width="67" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Rei (...ni Rei)</td>
+    <td width="200" height="22">Bow (Bow to...)</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/rei.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Renmei</td>
+    <td width="200" height="22">Federation</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/renmei.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Renma</td>
+    <td width="200" height="22">Polishing, Training</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/renma.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Renraku</td>
+    <td width="200" height="22">Combinations</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/renraku.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Seishin</td>
+    <td width="200" height="22">Spirit</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/seishin.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Seiza</td>
+    <td width="200" height="22">Formal Kneeling (correct 
+      sitting)</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/seiza.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Sempai</td>
+    <td width="200" height="22">Senior (1st &amp; 2nd Dan)</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/sempai.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Sensei</td>
+    <td width="200" height="22">Teacher (born before) (3rd &amp; 4th 
+      Dan)</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/sensei.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Shomen</td>
+    <td width="200" height="22">Front (correct face) of the 
+      Dojo</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/shomen.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Shihan</td>
+    <td width="200" height="22">Expert (5th Dan &amp; higher)</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/shihan.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Sosai</td>
+    <td width="200" height="22">President</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/sosai.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Tameshiwari</td>
+    <td width="200" height="22">Breaking Test</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/tameshiwari.gif" width="89" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Tanden</td>
+    <td width="200" height="22">Center of Body (below navel)</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/tanden.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Waza</td>
+    <td width="200" height="22">Technique(s)</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/waza.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Yame</td>
+    <td width="200" height="22">Stop</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/yame.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Yasume</td>
+    <td width="200" height="22">Rest, at Ease</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/yasume.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Yoi</td>
+    <td width="200" height="22">Ready</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/yoi.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Yudansha</td>
+    <td width="200" height="22">Black Belt Holder</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/yudansha.gif" width="67" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Zanshin</td>
+    <td width="200" height="22">Remain Alert (remaining mind)</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/zanshin.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+    <td width="192" height="22"></td>
+    <td width="200" height="22"></td>
+    <td width="201" height="22"></td>
+  </tr>
+  <tr>
+    <td width="192" height="22"></td>
+    <td width="200" height="22">
+      <p align="center"><font face="Arial" size="2"><span style="font-variant: small-caps"><a href="#TOP">TOP</a></span></font></td>
+    <td width="201" height="22"></td>
+  </tr>
+  <tr>
+    <td width="192" height="22"></td>
+    <td width="200" height="22"></td>
+    <td width="201" height="22"></td>
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22"><font color="#800000"><b>TAIKAI&nbsp; JUTSUGO</b></font></td>
+    <td width="200" height="22"><font color="#800000"><b><a name="TOURNAMENT  TERMINOLOGY">TOURNAMENT&nbsp;
+      TERMINOLOGY</a></b></font></td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/taikai.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/jutsugo.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Aka</td>
+    <td width="200" height="22">Red</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/aka.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Awasete Ippon</td>
+    <td width="200" height="22">Adds Up to One Point</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/awasete.gif" width="89" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ippon.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Chui</td>
+    <td width="200" height="22">Warning</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/chui.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Encho</td>
+    <td width="200" height="22">Overtime Round (extension)</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/encho.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Fukushin</td>
+    <td width="200" height="22">Corner Judge (assistant 
+      referee)</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/fukushin.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Fukushin Shugo</td>
+    <td width="200" height="22">Referees' Conference</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/fukushin.gif" width="45" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/shugo.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Genten</td>
+    <td width="200" height="22">Penalty</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/genten.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Hantei</td>
+    <td width="200" height="22">Decision</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/hantei.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Hikiwake</td>
+    <td width="200" height="22">Draw, Tie</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/hikiwake.gif" width="89" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Ippon</td>
+    <td width="200" height="22">One Point</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ippon.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Kachi (...no Kachi)</td>
+    <td width="200" height="22">Win (...the Winner)</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/kachi.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Kiken</td>
+    <td width="200" height="22">Forfeit</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/kiken.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Senshuken Taikai</td>
+    <td width="200" height="22">Championship Tournament</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/senshuken.gif" width="67" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/taikai.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Shikaku</td>
+    <td width="200" height="22">Disqualification</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/shikaku.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Shiro</td>
+    <td width="200" height="22">White</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/shiro.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Shushin</td>
+    <td width="200" height="22">Referee</td>
+    <td width="201" height="22">
+    <img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/shushin.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Waza Ari</td>
+    <td width="200" height="22">Half Point (has a technique)</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/waza.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ari.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Zokko</td>
+    <td width="200" height="22">Resume Fighting</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/zokko.gif" width="45" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+    <td width="192" height="22"></td>
+    <td width="200" height="22"></td>
+    <td width="201" height="22"></td>
+  </tr>
+  <tr>
+    <td width="192" height="22"></td>
+    <td width="200" height="22">
+      <p align="center"><font face="Arial" size="2"><span style="font-variant: small-caps"><a href="#TOP">TOP</a></span></font></td>
+    <td width="201" height="22"></td>
+  </tr>
+  <tr>
+    <td width="192" height="22"></td>
+    <td width="200" height="22"></td>
+    <td width="201" height="22"></td>
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22"><font color="#800000"><b>KAZU</b></font></td>
+    <td width="200" height="22"><font color="#800000"><b><a name="NUMBERS">NUMBERS</a></b></font></td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/kazu.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Ichi</td>
+    <td width="200" height="22">One</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ichi.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Ni</td>
+    <td width="200" height="22">Two</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ni.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">San</td>
+    <td width="200" height="22">Three</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/san.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Shi, Yon</td>
+    <td width="200" height="22">Four</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/shi.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Go</td>
+    <td width="200" height="22">Five</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/go.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Roku</td>
+    <td width="200" height="22">Six</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/roku.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Shichi, Nana</td>
+    <td width="200" height="22">Seven</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/shichi.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Hachi</td>
+    <td width="200" height="22">Eight</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/hachi.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Ku</td>
+    <td width="200" height="22">Nine</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ku.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Ju</td>
+    <td width="200" height="22">Ten</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ju.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Sanju</td>
+    <td width="200" height="22">Thirty</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/san.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ju.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Yonjugo</td>
+    <td width="200" height="22">Forty-Five</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/shi.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/ju.gif" width="22" height="20"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/go.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Hyaku</td>
+    <td width="200" height="22">Hundred</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/hyaku.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Sen</td>
+    <td width="200" height="22">Thousand</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/sen.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+
+<font face="arial" size="2">
+
+    <td width="192" height="22">Man</td>
+    <td width="200" height="22">Ten Thousand</td>
+    <td width="201" height="22"><img border="0" src="/web/20050905225417im_/https://musashi.nl/images/term/man.gif" width="22" height="20"></td>
+  
+</font>
+  
+  </tr>
+  <tr>
+    <td width="192" height="22"></td>
+    <td width="200" height="22"></td>
+    <td width="201" height="22"></td>
+  </tr>
+  <tr>
+    <td width="192" height="11"></td>
+    <td width="200" height="11">
+      <p align="center"><font face="Arial" size="2"><span style="font-variant: small-caps"><a href="#TOP">TOP</a></span></font></td>
+    <td width="201" height="11"></td>
+  </tr>
+  <tr>
+    <td width="192" height="11"></td>
+    <td width="200" height="11">
+    </td>
+    <td width="201" height="11"></td>
+  </tr>
+  <tr>
+    <td width="192" height="11"></td>
+    <td width="200" height="11">
+    </td>
+    <td width="201" height="11"></td>
+  </tr>
+  <tr>
+    <td width="593" height="11" colspan="3">&nbsp;
+      <p>&nbsp;</td>
+  </tr>
+</table>
+
+  </center>
+</div>
+
+<p align="center"><b><font face="Arial" size="2">Reactie?</font><a href="https://web.archive.org/web/20050905225417/mailto:kyokushin@musashi.nl"><font face="Arial" size="2"><br>
+<img border="0" src="/web/20050905225417im_/https://musashi.nl/gif/email4.gif" alt="Email to Sjaak van de Velde" align="center" width="60" height="30">
+</font></a></b></p>
+<p align="center"><map name="band"> 
+<area shape="rect" coords="483, 46, 526, 69" href="indexeng.htm" target="_top"> 
+<area shape="rect" coords="391, 46, 476, 82" href="michaeleng.htm" target="_self"> 
+<area shape="rect" coords="297, 52, 386, 83" href="mariuseng.htm" target="_self"> 
+<area shape="rect" coords="208, 34, 292, 73" href="sjaakeng.htm" target="_self"> 
+<area shape="rect" coords="139, 33, 201, 64" href="andyhugeng.htm" target="_self"> 
+<area shape="rect" coords="65, 25, 131, 60" href="toru_tezukaeng.htm" target="_self"> <area shape="rect" coords="10, 14, 57, 47" href="sosaieng.htm" target="_self"> 
+</map>
+<img src="/web/20050905225417im_/https://musashi.nl/zwarteband.gif" usemap="#band" alt="Menu zwarte band" border="0" width="526" height="89"><a target="_blank" href="https://web.archive.org/web/20050905225417/http://v1.nedstatbasic.net/stats?ABN0iwnMR9PsWtzEjjYZcobA/TAw"><br>
+<br>
+</a>
+&nbsp;
+<p align="center">
+<div id="Layer1" style="position:absolute;  width:81px; height:88px; z-index:1; visibility: hidden"><font size="3"><font color="#ff0000">
+
+<!-- Begin Nedstat Basic code -->
+<!-- Title: Kyokushin Karate Musashi Nederland -->
+<!-- URL: http://www.musashi.nl -->
+<script language="JavaScript" src="https://web.archive.org/web/20050905225417js_/http://m1.nedstatbasic.net/basic.js">
+  </script>
+<script language="JavaScript">
+<!--
+  nedstatbasic("AAvO7Qy1CgezmT5GWCB1VgSlZLeA", 0);
+// -->
+  </script>
+<noscript>
+  <a target="_blank" href="https://web.archive.org/web/20050905225417/http://v1.nedstatbasic.net/stats?AAvO7Qy1CgezmT5GWCB1VgSlZLeA"><img src="https://web.archive.org/web/20050905225417im_/http://m1.nedstatbasic.net/n?id=AAvO7Qy1CgezmT5GWCB1VgSlZLeA" border="0" nosave width="18" height="18"></a></noscript>
+<!-- End Nedstat Basic code -->
+
+<!--STATS4ALL_START-->
+<script language="javascript"><!--
+sver = 10;screensize="";colors="";navlan="";plug="";
+ref = escape(document.referrer)+"";
+sUrl = escape(document.URL)+"";
+if((ref=="") || (ref=="undefined")){ref="bookmark";};
+nav=navigator.appName;
+if(nav.substring(0,9)=="Microsoft"){nav="MSIE";};
+version=Math.round(parseFloat(navigator.appVersion)*100);
+if((nav=="MSIE") && (parseInt(version)==2)){version=301;};java="";
+if(navigator.appName=="Netscape"){ if(version>400) navlan=navigator.language;
+if(version>300)for(var i=0;i<navigator.plugins.length;i++)plug +=navigator.plugins[i].name+":"};
+//--></script>
+<script language="javascript1.1"><!--
+sver=11;java=(navigator.javaEnabled()==true)?"y":"n";
+//--></script>
+<script language="javascript1.2"><!--
+sver=12;screensize=screen.width+"*"+screen.height;
+colors=(nav=="MSIE")?screen.colorDepth:screen.pixelDepth;
+if(colors=="undefined"){colors="";};
+//--></script>
+<script language="javascript1.3"><!--
+sver=13;
+//--></script>
+<script language="javascript"><!--
+arguments="&nav="+nav+"&version="+version+"&screensize="+screensize+"&colors="+colors+"&sver="+sver;
+arguments+="&java="+java+"&rf="+ref+"&navlan="+navlan+"&plug="+escape(plug)+"&sUrl="+sUrl;
+document.write ("<A HREF='https://web.archive.org/web/20050905225417/http://www.stats4all.com/asp/login.asp?sSiteName=musashi002' target=_blank><IMG BORDER=0 SRC='https://web.archive.org/web/20050905225417/http://www.hit.stats4all.com/asp/hit.asp?sSiteName=musashi002" + arguments + "&sExtra=None'></A>")
+//--></script>
+<script language="javascript1.2"><!--
+document.write("<");document.write("!--");
+//--></script>
+<noscript>
+  <a href="https://web.archive.org/web/20050905225417/http://www.stats4all.com/asp/login.asp?sSiteName=musashi002" target="_blank">
+<img border="0" src="https://web.archive.org/web/20050905225417im_/http://www.hit.stats4all.com/asp/hit.asp?sSiteName=musashi002"></a></noscript>
+<script language="javascript1.2"><!--
+document.write("--");document.write(">");
+//--></script>
+<!--STATS4ALL_END-->
+</font>
+</body>
+</html><!--
+     FILE ARCHIVED ON 22:54:17 Sep 05, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:13:03 Apr 22, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.814
+  exclusion.robots: 0.08
+  exclusion.robots.policy: 0.065
+  esindex: 0.013
+  cdx.remote: 129.045
+  LoadShardBlock: 115.925 (3)
+  PetaboxLoader3.datanode: 182.886 (4)
+  load_resource: 283.009
+  PetaboxLoader3.resolve: 160.711
+  nav: 0.16 (6)
+-->

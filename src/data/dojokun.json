@@ -1,0 +1,58 @@
+[
+  {
+    "id": "dojokun-1",
+    "grade": 0,
+    "number": 1,
+    "emoji": "💪",
+    "textSwedish": "Vi ska träna vår kropp och själ för en fast och orubblig vilja.",
+    "textEnglish": "We will train our hearts and bodies for a firm unshaken spirit."
+  },
+  {
+    "id": "dojokun-2",
+    "grade": 0,
+    "number": 2,
+    "emoji": "🥋",
+    "textSwedish": "Vi ska noga studera kampkonstens innersta väsen för att påpassligt och rådsnabbt reagera när så behövs.",
+    "textEnglish": "We will pursue the true meaning of the martial way so that, in time, our senses may be alert."
+  },
+  {
+    "id": "dojokun-3",
+    "grade": 0,
+    "number": 3,
+    "emoji": "🧘",
+    "textSwedish": "Vi ska med en sann och okuvlig karaktär fostra självbehärskningens sinnelag.",
+    "textEnglish": "With true vigour, we will seek to cultivate a spirit of self-denial."
+  },
+  {
+    "id": "dojokun-4",
+    "grade": 0,
+    "number": 4,
+    "emoji": "🙏",
+    "textSwedish": "Vi ska vinnlägga oss om höviskhet, respektera våra seniorer och avhålla oss från ett våldsamt beteende.",
+    "textEnglish": "We will observe the rules of courtesy, respect our superiors, and refrain from violence."
+  },
+  {
+    "id": "dojokun-5",
+    "grade": 0,
+    "number": 5,
+    "emoji": "🌱",
+    "textSwedish": "Vi ska vörda vår personliga övertygelse och inte glömma ödmjukhetens dygd.",
+    "textEnglish": "We will follow our religious principles and never forget the true virtue of humility."
+  },
+  {
+    "id": "dojokun-6",
+    "grade": 0,
+    "number": 6,
+    "emoji": "⚖️",
+    "textSwedish": "Vi ska vårda vår visdom och styrka för att inte fela i händelse av en konfrontation.",
+    "textEnglish": "We will look upwards to wisdom and strength, not seeking other desires."
+  },
+  {
+    "id": "dojokun-7",
+    "grade": 0,
+    "number": 7,
+    "emoji": "🛤️",
+    "textSwedish": "Vi ska hela vårt liv fortsätta att öva karatens principer och därigenom fullborda den Yttersta Sanningens väg.",
+    "textEnglish": "All our lives, through the discipline of karate, we will seek to fulfill the true meaning of the Kyokushin way."
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git clone *)",
+      "PowerShell(git clone https://github.com/Hafuketo/kyokuquiz.git . 2>&1)",
+      "PowerShell(cd c:\\\\Users\\\\fs7658\\\\source\\\\repos && Get-ChildItem kyokuquiz-temp -Force | Where-Object { $_.Name -ne '.git' } | ForEach-Object { Move-Item $_.FullName kyokuquiz\\\\ -Force } && Remove-Item kyokuquiz-temp -Recurse -Force && ls kyokuquiz)",
+      "WebFetch(domain:kyokushin.se)",
+      "Bash(dir \"c:\\\\Users\\\\fs7658\\\\source\\\\repos\\\\kyokuquiz\\\\assets\\\\images\\\\techniques\" /b)",
+      "PowerShell($json = Get-Content \"c:\\\\Users\\\\fs7658\\\\source\\\\repos\\\\kyokuquiz\\\\src\\\\data\\\\techniques.json\" -Raw | ConvertFrom-Json; Write-Host \"Total: $\\($json.Count\\)\"; $json | Group-Object grade | Sort-Object {[int]$_.Name} -Descending | ForEach-Object { Write-Host \"grade $\\($_.Name\\): $\\($_.Count\\)\" })",
+      "PowerShell(Rename-Item \"c:\\\\Users\\\\fs7658\\\\source\\\\repos\\\\kyokuquiz\\\\assets\\\\images\\\\techniques\\\\3kyu-strike-hiji-Ate.png\" \"0kyu-strike-hiji-Ate-2.png\")",
+      "PowerShell($json = Get-Content \"c:\\\\Users\\\\fs7658\\\\source\\\\repos\\\\kyokuquiz\\\\src\\\\data\\\\dictionary.json\" -Raw | ConvertFrom-Json; Write-Host \"Total: $\\($json.Count\\)\"; $json | Group-Object category | Sort-Object Name | ForEach-Object { Write-Host \"$\\($_.Name\\): $\\($_.Count\\)\" })",
+      "Bash(node -e ' *)",
+      "PowerShell(Rename-Item \"c:\\\\Users\\\\fs7658\\\\source\\\\repos\\\\kyokuquiz\\\\assets\\\\images\\\\techniques\\\\0kyu-kick-ago_geri.png\" \"8kyu-kick-ago_mae_geri.png\")"
+    ]
+  }
+}
