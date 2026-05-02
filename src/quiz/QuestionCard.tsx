@@ -3,6 +3,7 @@ import { Button, Row, Col } from 'react-bootstrap'
 import { useTranslation } from 'react-i18next'
 import type { Question, AnyEntry } from './generator'
 import { entryImagePath } from './generator'
+import './QuestionCard.css'
 
 interface Props {
   question: Question
