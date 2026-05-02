@@ -13,7 +13,7 @@ export function Scroll({ children, footer, scrollable }: ScrollProps) {
       <div className="bg-kq-mount scroll-mount" />
       
       <div className='scroll-main bg-kq-border flex-grow-1 d-flex flex-column scroll-shadow mx-2 py-4'>
-        <div className={`scroll-body flex-grow-1 p-4 m-4 ${scrollable ? 'overflow-auto' : ''}`}>
+        <div className={`scroll-body flex-grow-1 p-2 m-2 ${scrollable ? 'overflow-auto' : ''}`}>
           {children}
         </div>
         {footer && (

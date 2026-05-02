@@ -1,4 +1,4 @@
-import type { Category, DictionaryCategory, Technique, DictionaryEntry } from '../data/types'
+import type { DictionaryCategory, Technique, DictionaryEntry } from '../data/types'
 import techniquesRaw from '../data/techniques.json'
 import dictionaryRaw from '../data/dictionary.json'
 
@@ -25,8 +25,6 @@ function shuffle<T>(arr: T[]): T[] {
 }
 
 function pickDistractors(correct: AnyEntry, pool: AnyEntry[], count = 3): AnyEntry[] {
-  // Never use entries with a lower grade value (more advanced belt)
-  // dan (-1) only pairs with other dan entries
   const eligible = pool.filter(e => {
     if (e.id === correct.id) return false
     if (correct.grade === -1) return e.grade === -1
@@ -36,36 +34,32 @@ function pickDistractors(correct: AnyEntry, pool: AnyEntry[], count = 3): AnyEnt
   const sameGrade = eligible.filter(e => e.grade === correct.grade)
   const rest      = eligible.filter(e => e.grade !== correct.grade)
 
-  const shuffledSame = shuffle(sameGrade)
-  const shuffledRest = shuffle(rest)
-
-  return [...shuffledSame, ...shuffledRest].slice(0, count)
+  return [...shuffle(sameGrade), ...shuffle(rest)].slice(0, count)
 }
 
 export function buildPool(params: {
-  grades: number[]
-  categories: string[]
-  other: string[]
+  cells: { grade: number; categories: string[] }[]
   extras: string[]
 }): AnyEntry[] {
-  const { grades, categories, other, extras } = params
+  const { cells, extras } = params
   const pool: AnyEntry[] = []
 
   for (const t of techniquesRaw as Technique[]) {
-    if (!grades.includes(t.grade)) continue
-    if (categories.includes(t.category) || other.includes(t.category)) {
+    const cell = cells.find(c => c.grade === t.grade)
+    if (cell?.categories.includes(t.category)) {
       pool.push({ ...t, _src: 'tech' as const })
     }
   }
 
-  const dictCats = new Set([
-    ...other.filter(c => !TECH_CATS.has(c)),
-    ...extras,
-  ] as DictionaryCategory[])
+  const selectedGrades = new Set(cells.map(c => c.grade))
+  const extraCats = new Set(extras as DictionaryCategory[])
 
   for (const d of dictionaryRaw as DictionaryEntry[]) {
-    if (!grades.includes(d.grade)) continue
-    if (dictCats.has(d.category)) {
+    const cell = cells.find(c => c.grade === d.grade)
+    const inCells  = cell != null && !TECH_CATS.has(d.category) && cell.categories.includes(d.category)
+    const inExtras = extraCats.size > 0 && selectedGrades.has(d.grade) && extraCats.has(d.category)
+
+    if (inCells || inExtras) {
       pool.push({ ...d, _src: 'dict' as const })
     }
   }

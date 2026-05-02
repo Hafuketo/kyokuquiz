@@ -9,6 +9,16 @@
   --kq-rice:      #faf7f2;
   --kq-seal:      #8b1a1a;
 
+  /* ── Belt colors ───────────────────────────────────── */
+  --belt-orange:  #a84e00;
+  --belt-blue:    #0f3070;
+  --belt-yellow:  #6e5000;
+  --belt-green:   #1a5218;
+  --belt-brown:   #4a2010;
+  --belt-black:   #0a0500;
+  --belt-stripe:  #0a0500;
+  --belt-stripe-gold: #8b6018;
+
   --bs-body-bg:         var(--kq-wall);
   --bs-body-color:      var(--kq-ink);
   --bs-secondary-color: var(--kq-ink-mid);
@@ -122,7 +132,31 @@ body {
 .bg-kq-gold  { background-color: var(--kq-gold) !important; }
 .bg-kq-border { background-color: var(--kq-border) !important; }
 .bg-kq-ink    { background-color: var(--kq-ink) !important; }
-.bg-kq-ink-mid { background-color: var(--kq-ink-mid) !
-important; }
+.bg-kq-ink-mid { background-color: var(--kq-ink-mid) !important; }
 .bg-kq-rice   { background-color: var(--kq-rice) !important; }
 .bg-kq-seal   { background-color: var(--kq-seal) !important; }
+
+/* ── Belt classes ────────────────────────────────────── */
+/* solid */
+.belt-10 { background: var(--belt-orange) !important; color: #fff !important; border-color: var(--belt-orange) !important; }
+.belt-8  { background: var(--belt-blue)   !important; color: #fff !important; border-color: var(--belt-blue)   !important; }
+.belt-6  { background: var(--belt-yellow) !important; color: #fff !important; border-color: var(--belt-yellow) !important; }
+.belt-4  { background: var(--belt-green)  !important; color: #fff !important; border-color: var(--belt-green)  !important; }
+.belt-2  { background: var(--belt-brown)  !important; color: #fff !important; border-color: var(--belt-brown)  !important; }
+
+/* with vertical stripe offset to the right */
+.belt-9    { background: linear-gradient(to right, var(--belt-orange) 72%, var(--belt-stripe) 72%, var(--belt-stripe) 84%, var(--belt-orange) 84%) !important; color: #fff !important; border-color: var(--belt-orange) !important; }
+.belt-7    { background: linear-gradient(to right, var(--belt-blue)   72%, var(--belt-stripe) 72%, var(--belt-stripe) 84%, var(--belt-blue)   84%) !important; color: #fff !important; border-color: var(--belt-blue)   !important; }
+.belt-5    { background: linear-gradient(to right, var(--belt-yellow) 72%, var(--belt-stripe) 72%, var(--belt-stripe) 84%, var(--belt-yellow) 84%) !important; color: #fff !important; border-color: var(--belt-yellow) !important; }
+.belt-3    { background: linear-gradient(to right, var(--belt-green)  72%, var(--belt-stripe) 72%, var(--belt-stripe) 84%, var(--belt-green)  84%) !important; color: #fff !important; border-color: var(--belt-green)  !important; }
+.belt-1    { background: linear-gradient(to right, var(--belt-brown)  72%, var(--belt-stripe) 72%, var(--belt-stripe) 84%, var(--belt-brown)  84%) !important; color: #fff !important; border-color: var(--belt-brown)  !important; }
+
+/* 1 dan — black with gold stripe */
+.belt-dan1 { background: linear-gradient(to right, var(--belt-black) 72%, var(--belt-stripe-gold) 72%, var(--belt-stripe-gold) 84%, var(--belt-black) 84%) !important; color: #fff !important; border-color: var(--belt-black) !important; }
+
+/* dim when not selected; hover previews active look */
+.belt-unselected         { opacity: 0.4; }
+.belt-unselected:hover   { opacity: 1; }
+
+/* bold text when active */
+.belt-active { font-weight: 600 !important; }

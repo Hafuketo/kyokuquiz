@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next'
 import { PageLayout, Scroll } from '../components/Scroll'
 import QuestionCard from '../quiz/QuestionCard'
 import { buildPool, generateQuestions } from '../quiz/generator'
+import { GRID_ROWS } from '../data/filterConfig'
 
 export default function Quiz() {
   const navigate = useNavigate()
@@ -12,12 +13,21 @@ export default function Quiz() {
   const { t } = useTranslation()
 
   const questions = useMemo(() => {
-    const grades     = searchParams.get('grades')?.split(',').map(Number).filter(Boolean) ?? []
-    const categories = searchParams.get('categories')?.split(',').filter(Boolean) ?? []
-    const other      = searchParams.get('other')?.split(',').filter(Boolean) ?? []
+    const cellsParam = searchParams.get('cells')?.split(',').filter(Boolean) ?? []
     const extras     = searchParams.get('extras')?.split(',').filter(Boolean) ?? []
 
-    const pool = buildPool({ grades, categories, other, extras })
+    const gradeMap = new Map<number, string[]>()
+    for (const key of cellsParam) {
+      const [gradeStr, rowKey] = key.split('|')
+      const grade = Number(gradeStr)
+      const row = GRID_ROWS.find(r => r.key === rowKey)
+      if (!row || isNaN(grade)) continue
+      if (!gradeMap.has(grade)) gradeMap.set(grade, [])
+      gradeMap.get(grade)!.push(...row.categories)
+    }
+    const cells = [...gradeMap.entries()].map(([grade, categories]) => ({ grade, categories }))
+
+    const pool = buildPool({ cells, extras })
     return generateQuestions(pool, 10)
   }, [searchParams])
 
