@@ -431,7 +431,7 @@
   {
     "id": "7kyu-strike-tetsui_kome_kami_uchi",
     "grade": 7,
-    "category": "strike",
+    "category": "punch",
     "nameJapanese": "Tetsui Kome Kami Uchi",
     "nameKanji": "鉄槌米神打ち",
     "nameHiragana": "てつい こめかみ うち",
@@ -442,7 +442,7 @@
   {
     "id": "7kyu-strike-tetsui_oroshi_ganmen_uchi",
     "grade": 7,
-    "category": "strike",
+    "category": "punch",
     "nameJapanese": "Tetsui Oroshi Ganmen Uchi",
     "nameKanji": "鉄槌降ろし顔面打ち",
     "nameHiragana": "てつい おろし がんめん うち",
@@ -453,7 +453,7 @@
   {
     "id": "7kyu-strike-tetsui_hizo_uchi",
     "grade": 7,
-    "category": "strike",
+    "category": "punch",
     "nameJapanese": "Tetsui Hizo Uchi",
     "nameKanji": "鉄槌脾臓打ち",
     "nameHiragana": "てつい ひぞう うち",
@@ -464,7 +464,7 @@
   {
     "id": "7kyu-strike-tetsui_yoko_uchi_jodan",
     "grade": 7,
-    "category": "strike",
+    "category": "punch",
     "nameJapanese": "Tetsui Yoko Uchi Jodan",
     "nameKanji": "鉄槌横打ち上段",
     "nameHiragana": "てつい よこ うち じょうだん",
@@ -475,7 +475,7 @@
   {
     "id": "7kyu-strike-tetsui_yoko_uchi_chudan",
     "grade": 7,
-    "category": "strike",
+    "category": "punch",
     "nameJapanese": "Tetsui Yoko Uchi Chudan",
     "nameKanji": "鉄槌横打ち中段",
     "nameHiragana": "てつい よこ うち ちゅうだん",
@@ -486,7 +486,7 @@
   {
     "id": "7kyu-strike-tetsui_yoko_uchi_gedan",
     "grade": 7,
-    "category": "strike",
+    "category": "punch",
     "nameJapanese": "Tetsui Yoko Uchi Gedan",
     "nameKanji": "鉄槌横打ち下段",
     "nameHiragana": "てつい よこ うち げだん",
@@ -530,7 +530,7 @@
   {
     "id": "6kyu-strike-uraken_shomen_ganmen_uchi",
     "grade": 6,
-    "category": "strike",
+    "category": "punch",
     "nameJapanese": "Uraken Shomen Ganmen Uchi",
     "nameKanji": "裏拳正面顔面打ち",
     "nameHiragana": "うらけん しょうめん がんめん うち",
@@ -541,7 +541,7 @@
   {
     "id": "6kyu-strike-uraken_sayu_ganmen_uchi",
     "grade": 6,
-    "category": "strike",
+    "category": "punch",
     "nameJapanese": "Uraken Sayu Ganmen Uchi",
     "nameKanji": "裏拳左右顔面打ち",
     "nameHiragana": "うらけん さゆ がんめん うち",
@@ -552,7 +552,7 @@
   {
     "id": "6kyu-strike-uraken_hizo_uchi",
     "grade": 6,
-    "category": "strike",
+    "category": "punch",
     "nameJapanese": "Uraken Hizo Uchi",
     "nameKanji": "裏拳脾臓打ち",
     "nameHiragana": "うらけん ひぞう うち",
@@ -563,7 +563,7 @@
   {
     "id": "6kyu-strike-uraken_ganmen_oroshi_uchi",
     "grade": 6,
-    "category": "strike",
+    "category": "punch",
     "nameJapanese": "Uraken Ganmen Oroshi Uchi",
     "nameKanji": "裏拳顔面降ろし打ち",
     "nameHiragana": "うらけん がんめん おろし うち",
@@ -574,7 +574,7 @@
   {
     "id": "6kyu-strike-uraken_mawashi_uchi",
     "grade": 6,
-    "category": "strike",
+    "category": "punch",
     "nameJapanese": "Uraken Mawashi Uchi",
     "nameKanji": "裏拳回し打ち",
     "nameHiragana": "うらけん まわし うち",
@@ -728,7 +728,7 @@
   {
     "id": "5kyu-strike-shotei_uchi_jodan",
     "grade": 5,
-    "category": "strike",
+    "category": "punch",
     "nameJapanese": "Shotei Uchi Jodan",
     "nameKanji": "掌底打ち上段",
     "nameHiragana": "しょうてい うち じょうだん",
@@ -739,7 +739,7 @@
   {
     "id": "5kyu-strike-shotei_uchi_chudan",
     "grade": 5,
-    "category": "strike",
+    "category": "punch",
     "nameJapanese": "Shotei Uchi Chudan",
     "nameKanji": "掌底打ち中段",
     "nameHiragana": "しょうてい うち ちゅうだん",
@@ -750,7 +750,7 @@
   {
     "id": "5kyu-strike-shotei_uchi_gedan",
     "grade": 5,
-    "category": "strike",
+    "category": "punch",
     "nameJapanese": "Shotei Uchi Gedan",
     "nameKanji": "掌底打ち下段",
     "nameHiragana": "しょうてい うち げだん",
@@ -761,7 +761,7 @@
   {
     "id": "5kyu-strike-jodan_hiji_ate",
     "grade": 5,
-    "category": "strike",
+    "category": "punch",
     "nameJapanese": "Jodan Hiji Ate",
     "nameKanji": "上段肘当て",
     "nameHiragana": "じょうだん ひじ あて",
@@ -816,7 +816,7 @@
   {
     "id": "4kyu-strike-shuto_sakotsu_uchi",
     "grade": 4,
-    "category": "strike",
+    "category": "punch",
     "nameJapanese": "Shuto Sakotsu Uchi",
     "nameKanji": "手刀鎖骨打ち",
     "nameHiragana": "しゅとう さこつ うち",
@@ -827,7 +827,7 @@
   {
     "id": "4kyu-strike-shuto_yoko_ganmen_uchi",
     "grade": 4,
-    "category": "strike",
+    "category": "punch",
     "nameJapanese": "Shuto Yoko Ganmen Uchi",
     "nameKanji": "手刀横顔面打ち",
     "nameHiragana": "しゅとう よこ がんめん うち",
@@ -838,7 +838,7 @@
   {
     "id": "4kyu-strike-shuto_uchi_komi",
     "grade": 4,
-    "category": "strike",
+    "category": "punch",
     "nameJapanese": "Shuto Uchi Komi",
     "nameKanji": "手刀打ち込み",
     "nameHiragana": "しゅとう うち こみ",
@@ -849,7 +849,7 @@
   {
     "id": "4kyu-strike-shuto_hizo_uchi",
     "grade": 4,
-    "category": "strike",
+    "category": "punch",
     "nameJapanese": "Shuto Hizo Uchi",
     "nameKanji": "手刀脾臓打ち",
     "nameHiragana": "しゅとう ひぞう うち",
@@ -860,7 +860,7 @@
   {
     "id": "4kyu-strike-shuto_jodan_uchi_uchi",
     "grade": 4,
-    "category": "strike",
+    "category": "punch",
     "nameJapanese": "Shuto Jodan Uchi Uchi",
     "nameKanji": "手刀上段内打ち",
     "nameHiragana": "しゅとう じょうだん うち うち",
@@ -1080,7 +1080,7 @@
   {
     "id": "3kyu-strike-chudan_hiji_ate",
     "grade": 3,
-    "category": "strike",
+    "category": "punch",
     "nameJapanese": "Chudan Hiji Ate",
     "nameKanji": "中段肘当て",
     "nameHiragana": "ちゅうだん ひじ あて",
@@ -1091,7 +1091,7 @@
   {
     "id": "3kyu-strike-mae_hiji_ate_chudan",
     "grade": 3,
-    "category": "strike",
+    "category": "punch",
     "nameJapanese": "Mae Hiji Ate Chudan",
     "nameKanji": "前肘当て中段",
     "nameHiragana": "まえ ひじ あて ちゅうだん",
@@ -1102,7 +1102,7 @@
   {
     "id": "3kyu-strike-age_hiji_ate_jodan",
     "grade": 3,
-    "category": "strike",
+    "category": "punch",
     "nameJapanese": "Age Hiji Ate Jodan",
     "nameKanji": "上げ肘当て上段",
     "nameHiragana": "あげ ひじ あて じょうだん",
@@ -1113,7 +1113,7 @@
   {
     "id": "3kyu-strike-age_hiji_ate_chudan",
     "grade": 3,
-    "category": "strike",
+    "category": "punch",
     "nameJapanese": "Age Hiji Ate Chudan",
     "nameKanji": "上げ肘当て中段",
     "nameHiragana": "あげ ひじ あて ちゅうだん",
@@ -1124,7 +1124,7 @@
   {
     "id": "3kyu-strike-ushiro_hiji_ate",
     "grade": 3,
-    "category": "strike",
+    "category": "punch",
     "nameJapanese": "Ushiro Hiji Ate",
     "nameKanji": "後ろ肘当て",
     "nameHiragana": "うしろ ひじ あて",
@@ -1135,7 +1135,7 @@
   {
     "id": "3kyu-strike-oroshi_hiji_ate",
     "grade": 3,
-    "category": "strike",
+    "category": "punch",
     "nameJapanese": "Oroshi Hiji Ate",
     "nameKanji": "降ろし肘当て",
     "nameHiragana": "おろし ひじ あて",
@@ -1157,7 +1157,7 @@
   {
     "id": "2kyu-strike-hira_ken_tsuki",
     "grade": 2,
-    "category": "strike",
+    "category": "punch",
     "nameJapanese": "Hira Ken Tsuki",
     "nameKanji": "平拳突き",
     "nameHiragana": "ひらけん つき",
@@ -1168,7 +1168,7 @@
   {
     "id": "2kyu-strike-hira_ken_oroshi_uchi",
     "grade": 2,
-    "category": "strike",
+    "category": "punch",
     "nameJapanese": "Hira Ken Oroshi Uchi",
     "nameKanji": "平拳降ろし打ち",
     "nameHiragana": "ひらけん おろし うち",
@@ -1179,7 +1179,7 @@
   {
     "id": "2kyu-strike-haishu_uchi",
     "grade": 2,
-    "category": "strike",
+    "category": "punch",
     "nameJapanese": "Haishu Uchi",
     "nameKanji": "背手打ち",
     "nameHiragana": "はいしゅ うち",
@@ -1190,7 +1190,7 @@
   {
     "id": "2kyu-strike-hira_ken_mawashi_uchi",
     "grade": 2,
-    "category": "strike",
+    "category": "punch",
     "nameJapanese": "Hira Ken Mawashi Uchi",
     "nameKanji": "平拳回し打ち",
     "nameHiragana": "ひらけん まわし うち",
@@ -1201,7 +1201,7 @@
   {
     "id": "2kyu-strike-age_jodan_tsuki",
     "grade": 2,
-    "category": "strike",
+    "category": "punch",
     "nameJapanese": "Age Jodan Tsuki",
     "nameKanji": "上げ上段突き",
     "nameHiragana": "あげ じょうだん つき",
@@ -1212,7 +1212,7 @@
   {
     "id": "2kyu-strike-koken_uchi",
     "grade": 2,
-    "category": "strike",
+    "category": "punch",
     "nameJapanese": "Koken Uchi",
     "nameKanji": "弧拳打ち",
     "nameHiragana": "こけん うち",
@@ -1300,7 +1300,7 @@
   {
     "id": "1kyu-strike-ryuto_ken_tsuki",
     "grade": 1,
-    "category": "strike",
+    "category": "punch",
     "nameJapanese": "Ryuto Ken Tsuki",
     "nameKanji": "龍頭拳突き",
     "nameHiragana": "りゅうとうけん つき",
@@ -1311,7 +1311,7 @@
   {
     "id": "1kyu-strike-naka_yubi_ippon_ken_tsuki",
     "grade": 1,
-    "category": "strike",
+    "category": "punch",
     "nameJapanese": "Naka Yubi Ippon Ken Tsuki",
     "nameKanji": "中指一本拳突き",
     "nameHiragana": "なかゆび いっぽんけん つき",
@@ -1322,7 +1322,7 @@
   {
     "id": "1kyu-strike-oya_yubi_ken_uchi",
     "grade": 1,
-    "category": "strike",
+    "category": "punch",
     "nameJapanese": "Oya Yubi Ken Uchi",
     "nameKanji": "親指拳打ち",
     "nameHiragana": "おやゆびけん うち",
@@ -1333,7 +1333,7 @@
   {
     "id": "1kyu-strike-hitoshi_yubi_ippon_ken",
     "grade": 1,
-    "category": "strike",
+    "category": "punch",
     "nameJapanese": "Hitoshi Yubi Ippon Ken",
     "nameKanji": "人差指一本拳",
     "nameHiragana": "ひとさしゆび いっぽんけん",
@@ -1432,7 +1432,7 @@
   {
     "id": "1dan-strike-morote_haito_uchi",
     "grade": -1,
-    "category": "strike",
+    "category": "punch",
     "nameJapanese": "Morote Haito Uchi",
     "nameKanji": "諸手背刀打ち",
     "nameHiragana": "もろて はいとう うち",
@@ -1443,7 +1443,7 @@
   {
     "id": "1dan-strike-haito_uchi",
     "grade": -1,
-    "category": "strike",
+    "category": "punch",
     "nameJapanese": "Haito Uchi",
     "nameKanji": "背刀打ち",
     "nameHiragana": "はいとう うち",

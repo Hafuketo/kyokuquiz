@@ -1,4 +1,4 @@
-export type Category = 'kick' | 'punch' | 'strike' | 'block' | 'stance' | 'kata' | 'breathing';
+export type Category = 'kick' | 'punch' | 'block' | 'stance' | 'kata' | 'breathing' | 'kumite';
 
 // grade: 10–1 = 10kyu–1kyu, -1 = 1dan, 0 = non-curriculum (dojo kun, sosai mottos)
 export interface Technique {

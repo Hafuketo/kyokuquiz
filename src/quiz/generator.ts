@@ -2,7 +2,7 @@ import type { DictionaryCategory, Technique, DictionaryEntry } from '../data/typ
 import techniquesRaw from '../data/techniques.json'
 import dictionaryRaw from '../data/dictionary.json'
 
-const TECH_CATS = new Set(['kick', 'punch', 'strike', 'block', 'stance', 'kata', 'breathing'])
+const TECH_CATS = new Set(['kick', 'punch', 'block', 'stance', 'kata', 'breathing'])
 
 export type AnyEntry = (Technique | DictionaryEntry) & { _src: 'tech' | 'dict' }
 
