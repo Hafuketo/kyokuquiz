@@ -10,8 +10,12 @@ const sv = {
     journey:    'Resan',
     quick:      'Snabbspel',
     dictionary: 'Ordlista',
+    techniques: 'Tekniker',
     theory:     'Teori',
     about:      'Om KyokuQuiz',
+  },
+  techniques: {
+    title: 'Tekniker',
   },
   filter: {
     gradeSection:   'Min grad — välj upp till',
@@ -26,7 +30,8 @@ const sv = {
     cat_block:          'Block',
     cat_stance:         'Ställningar',
     cat_kata:           'Kata',
-    cat_breathing:      'Andning',
+    cat_other:          'Övrigt',
+    cat_kumite:         'Kumite',
     cat_hand_position:  'Handposition',
     cat_foot_position:  'Fotposition',
     cat_body_part:      'Kroppsdel',

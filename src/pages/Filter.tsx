@@ -4,7 +4,7 @@ import { Stack, Button } from 'react-bootstrap'
 import { FaHashtag, FaTrophy, FaBookOpen, FaScroll, FaMountainSun,
          FaShield, FaPerson, FaDragon, FaWind, FaHand, FaShoePrints,
          FaCircleDot, FaArrowsUpDown, FaCompass, FaSliders, FaBolt } from 'react-icons/fa6'
-import { GiHighKick, GiHighPunch } from 'react-icons/gi'
+import { GiHighKick, GiHighPunch, GiCrossedSwords } from 'react-icons/gi'
 import { useTranslation } from 'react-i18next'
 import { PageLayout, Scroll } from '../components/Scroll'
 import type { DictionaryCategory } from '../data/types'
@@ -23,7 +23,8 @@ const ROW_ICONS: Partial<Record<string, React.ReactNode>> = {
   block:         <FaShield      size={12} />,
   stance:        <FaPerson      size={12} />,
   kata:          <FaDragon      size={12} />,
-  breathing:     <FaWind        size={12} />,
+  other:         <FaWind        size={12} />,
+  kumite:        <GiCrossedSwords size={14} />,
   hand_position: <FaHand        size={12} />,
   foot_position: <FaShoePrints  size={12} />,
   body_part:     <FaCircleDot   size={12} />,

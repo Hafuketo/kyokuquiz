@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom'
 import { Stack, Button } from 'react-bootstrap'
-import { FaMountainSun, FaScroll, FaBookOpen, FaCircleInfo } from 'react-icons/fa6'
+import { FaMountainSun, FaScroll, FaBookOpen, FaCircleInfo, FaListUl } from 'react-icons/fa6'
 import { GiHighKick } from 'react-icons/gi'
 import { useTranslation } from 'react-i18next'
 import { PageLayout, Scroll } from '../components/Scroll'
@@ -28,6 +28,10 @@ export default function Home() {
           <Button variant="outline-dark" size="lg" className="d-flex align-items-center justify-content-center gap-2"
             onClick={() => navigate('/dictionary')}>
             <FaScroll /> {t('home.dictionary')}
+          </Button>
+          <Button variant="outline-dark" size="lg" className="d-flex align-items-center justify-content-center gap-2"
+            onClick={() => navigate('/techniques')}>
+            <FaListUl /> {t('home.techniques')}
           </Button>
           <Button variant="outline-dark" size="lg" className="d-flex align-items-center justify-content-center gap-2"
             onClick={() => navigate('/wiki')}>

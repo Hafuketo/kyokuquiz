@@ -10,8 +10,12 @@ const en = {
     journey:    'Journey',
     quick:      'Quick game',
     dictionary: 'Dictionary',
+    techniques: 'Techniques',
     theory:     'Theory',
     about:      'About KyokuQuiz',
+  },
+  techniques: {
+    title: 'Techniques',
   },
   filter: {
     gradeSection:   'My grade — select up to',
@@ -26,7 +30,8 @@ const en = {
     cat_block:          'Blocks',
     cat_stance:         'Stances',
     cat_kata:           'Kata',
-    cat_breathing:      'Breathing',
+    cat_other:          'Other',
+    cat_kumite:         'Kumite',
     cat_hand_position:  'Hand positions',
     cat_foot_position:  'Foot positions',
     cat_body_part:      'Body parts',
