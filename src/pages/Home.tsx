@@ -13,15 +13,15 @@ export default function Home() {
     <PageLayout>
       <Scroll>
         <Stack className="text-center mb-4" gap={1}>
-          <h1 className="fw-bold text-kq-ink ls-wide" style={{ fontSize: '2.75rem' }}>KyokuQuiz</h1>
+          <h1 className="fw-bold text-kq-ink ls-wide">KyokuQuiz</h1>
           <p className="text-kq-gold fs-3 mb-0">押忍</p>
         </Stack>
         <Stack gap={3}>
-          <Button variant="dark" size="lg" className="d-flex align-items-center justify-content-center gap-2"
+          <Button variant="outline-dark" size="lg" className="d-flex align-items-center justify-content-center gap-2 d-none"
             onClick={() => navigate('/journey')}>
             <FaMountainSun /> {t('home.journey')}
           </Button>
-          <Button variant="dark" size="lg" className="d-flex align-items-center justify-content-center gap-2"
+          <Button variant="outline-dark" size="lg" className="d-flex align-items-center justify-content-center gap-2"
             onClick={() => navigate('/quiz/filter')}>
             <GiHighKick /> {t('home.quick')}
           </Button>

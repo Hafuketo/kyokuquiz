@@ -1,6 +1,6 @@
 :root {
   --kq-wall:      #f0e9dc;
-  --kq-mount:     #8b5e3c;
+  --kq-mount:     #2e1205;
   --kq-scroll:    #faf7f2;
   --kq-ink:       #0a0500;
   --kq-ink-mid:   #5c3c20;
@@ -21,33 +21,10 @@
 .text-kq-gold { color: var(--kq-gold)    !important; }
 .text-kq-seal { color: var(--kq-seal)    !important; }
 
-.bg-kq-wall   { background-color: var(--kq-wall)   !important; }
-.bg-kq-mount  { background-color: var(--kq-mount)  !important; }
-.bg-kq-scroll { background-color: var(--kq-scroll) !important; }
-
-/* ── Scroll structure ────────────────────────────────── */
-.scroll-shadow {
-  box-shadow: 0 4px 24px rgba(80, 40, 10, 0.22), 0 1px 6px rgba(80, 40, 10, 0.12);
-}
-
-.scroll-mount {
-  height: 28px;
-  flex-shrink: 0;
-}
-.scroll-mount-top    { border-radius: 6px 6px 0 0; }
-.scroll-mount-bottom { border-radius: 0 0 6px 6px; }
-
-.scroll-body {
-  background-color: var(--kq-scroll);
-  min-height: 0; /* lets flex children shrink and scroll */
-}
-
-.scroll-scrollable { max-height: 88vh; }
-
 /* ── Footer ──────────────────────────────────────────── */
 .page-footer {
-  background-color: #0e0501;
-  border-top: 1px solid #2c1206;
+  background-color: var(--kq-mount);
+  border-top: 5px solid var(--kq-ink);
 }
 
 .footer-btn {
@@ -139,3 +116,13 @@ body {
   background-color: #e8d8b8 !important;
   color: var(--kq-ink) !important;
 }
+
+
+.bg-kq-mount { background-color: var(--kq-mount) !important; }
+.bg-kq-gold  { background-color: var(--kq-gold) !important; }
+.bg-kq-border { background-color: var(--kq-border) !important; }
+.bg-kq-ink    { background-color: var(--kq-ink) !important; }
+.bg-kq-ink-mid { background-color: var(--kq-ink-mid) !
+important; }
+.bg-kq-rice   { background-color: var(--kq-rice) !important; }
+.bg-kq-seal   { background-color: var(--kq-seal) !important; }
