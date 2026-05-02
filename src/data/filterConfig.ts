@@ -37,3 +37,19 @@ export const GRID_ROWS: GridRow[] = [
 export function cellKey(grade: number, rowKey: string): string {
   return `${grade}|${rowKey}`
 }
+
+import techniquesRaw from './techniques.json'
+import dictionaryRaw from './dictionary.json'
+
+const allEntries = [
+  ...(techniquesRaw as { grade: number; category: string }[]),
+  ...(dictionaryRaw  as { grade: number; category: string }[]),
+]
+
+export const VALID_CELLS: Set<string> = new Set(
+  GRADES.flatMap(g =>
+    GRID_ROWS
+      .filter(row => allEntries.some(e => e.grade === g.value && row.categories.includes(e.category)))
+      .map(row => cellKey(g.value, row.key))
+  )
+)

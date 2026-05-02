@@ -1,14 +1,17 @@
 .filter-grid {
-  --grid-width:      20px;
-  --grid-height:     20px;
+  --grid-width:      100%;
+  --grid-height:     25px;
   --grid-gap:        0px;
   --grid-row-gap:    0px;
-  --grid-font:       0.5rem;
-  --grid-label-font: 0.5rem;
+  --grid-font:       0.7rem;
+  --grid-label-font: 0.7rem;
   --grid-radius:     4px;
 
   border-collapse: separate;
   border-spacing: var(--grid-gap) var(--grid-row-gap);
+}
+.grade-col-header {
+  width: 9%;
 }
 
 .grade-col-btn {
@@ -30,10 +33,10 @@
 .grid-row-label {
   font-size: var(--grid-label-font);
   color: var(--kq-ink-mid);
-  padding-right: var(--grid-gap);
   white-space: nowrap;
   cursor: pointer;
   user-select: none;
+  text-align: right;
 }
 .grid-row-label:hover { color: var(--kq-ink); }
 
@@ -46,6 +49,8 @@
   background: transparent;
   transition: background-color 0.1s, border-color 0.1s;
 }
-.grid-cell:hover         { border-color: var(--kq-ink-mid); background: #e8d8b8; }
-.grid-cell--active       { background-color: var(--kq-ink); border-color: var(--kq-ink); }
-.grid-cell--active:hover { background-color: var(--kq-ink-mid); border-color: var(--kq-ink-mid); }
+.grid-cell:hover                { border-color: var(--kq-ink-mid); background: #e8d8b8; }
+.grid-cell--active              { background-color: var(--kq-ink); border-color: var(--kq-ink); }
+.grid-cell--active:hover        { background-color: var(--kq-ink-mid); border-color: var(--kq-ink-mid); }
+.grid-cell--disabled            { opacity: 0.15; cursor: default; }
+.grid-cell--disabled:hover      { background: transparent; border-color: var(--kq-border); }
