@@ -1,7 +1,7 @@
 export type GridRow = {
   key: string
   categories: string[]
-  section: 'tech' | 'other'
+  section: 'tech' | 'words' | 'positions' | 'body'
 }
 
 export const GRADES: { label: string; shortLabel: string; value: number; beltClass: string }[] = [
@@ -19,19 +19,19 @@ export const GRADES: { label: string; shortLabel: string; value: number; beltCla
 ]
 
 export const GRID_ROWS: GridRow[] = [
-  { key: 'kick',          categories: ['kick'],            section: 'tech'  },
-  { key: 'punch',         categories: ['punch', 'strike'], section: 'tech'  },
-  { key: 'block',         categories: ['block'],           section: 'tech'  },
-  { key: 'stance',        categories: ['stance'],          section: 'tech'  },
-  { key: 'kata',          categories: ['kata'],            section: 'tech'  },
-  { key: 'breathing',     categories: ['breathing'],       section: 'other' },
-  { key: 'hand_position', categories: ['hand_position'],   section: 'other' },
-  { key: 'foot_position', categories: ['foot_position'],   section: 'other' },
-  { key: 'body_part',     categories: ['body_part'],       section: 'other' },
-  { key: 'level',         categories: ['level'],           section: 'other' },
-  { key: 'direction',     categories: ['direction'],       section: 'other' },
-  { key: 'modifier',      categories: ['modifier'],        section: 'other' },
-  { key: 'action',        categories: ['action'],          section: 'other' },
+  { key: 'kick',          categories: ['kick'],            section: 'tech'      },
+  { key: 'punch',         categories: ['punch', 'strike'], section: 'tech'      },
+  { key: 'block',         categories: ['block'],           section: 'tech'      },
+  { key: 'stance',        categories: ['stance'],          section: 'tech'      },
+  { key: 'kata',          categories: ['kata'],            section: 'tech'      },
+  { key: 'breathing',     categories: ['breathing'],       section: 'tech'      },
+  { key: 'level',         categories: ['level'],           section: 'words'     },
+  { key: 'action',        categories: ['action'],          section: 'words'     },
+  { key: 'direction',     categories: ['direction'],       section: 'words'     },
+  { key: 'modifier',      categories: ['modifier'],        section: 'words'     },
+  { key: 'hand_position', categories: ['hand_position'],   section: 'positions' },
+  { key: 'foot_position', categories: ['foot_position'],   section: 'positions' },
+  { key: 'body_part',     categories: ['body_part'],       section: 'body'      },
 ]
 
 export function cellKey(grade: number, rowKey: string): string {

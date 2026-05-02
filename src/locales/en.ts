@@ -15,8 +15,10 @@ const en = {
   },
   filter: {
     gradeSection:   'My grade — select up to',
-    techSection:    'Techniques',
-    otherSection:   'Other',
+    techSection:      'Techniques',
+    wordsSection:     'Words',
+    positionsSection: 'Positions',
+    bodySection:      'Body parts',
     includeSection: 'Also include',
     start:          'Start',
     cat_kick:           'Kicks',

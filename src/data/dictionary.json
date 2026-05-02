@@ -176,8 +176,8 @@
     "nameSwedish": "Häl"
   },
   {
-    "id": "0kyu-level-jodan",
-    "grade": 0,
+    "id": "10kyu-level-jodan",
+    "grade": 10,
     "category": "level",
     "nameJapanese": "Jodan",
     "nameKanji": "上段",
@@ -187,8 +187,8 @@
     "nameSwedish": "Övre nivå (huvud / ansikte)"
   },
   {
-    "id": "0kyu-level-chudan",
-    "grade": 0,
+    "id": "10kyu-level-chudan",
+    "grade": 10,
     "category": "level",
     "nameJapanese": "Chudan",
     "nameKanji": "中段",
@@ -198,8 +198,8 @@
     "nameSwedish": "Mellannivå (solar plexus)"
   },
   {
-    "id": "0kyu-level-gedan",
-    "grade": 0,
+    "id": "10kyu-level-gedan",
+    "grade": 10,
     "category": "level",
     "nameJapanese": "Gedan",
     "nameKanji": "下段",
@@ -209,8 +209,8 @@
     "nameSwedish": "Nedre nivå (ljumske / ben)"
   },
   {
-    "id": "0kyu-body_part-ganmen",
-    "grade": 0,
+    "id": "10kyu-body_part-ganmen",
+    "grade": 10,
     "category": "body_part",
     "nameJapanese": "Ganmen",
     "nameKanji": "顔面",
@@ -220,8 +220,8 @@
     "nameSwedish": "Ansikte"
   },
   {
-    "id": "0kyu-body_part-ago",
-    "grade": 0,
+    "id": "9kyu-body_part-ago",
+    "grade": 9,
     "category": "body_part",
     "nameJapanese": "Ago",
     "nameKanji": "顎",
@@ -231,8 +231,8 @@
     "nameSwedish": "Haka / Käke"
   },
   {
-    "id": "0kyu-body_part-hizo",
-    "grade": 0,
+    "id": "7kyu-body_part-hizo",
+    "grade": 7,
     "category": "body_part",
     "nameJapanese": "Hizo",
     "nameKanji": "脾臓",
@@ -242,8 +242,8 @@
     "nameSwedish": "Mjälte"
   },
   {
-    "id": "0kyu-body_part-sakotsu",
-    "grade": 0,
+    "id": "4kyu-body_part-sakotsu",
+    "grade": 4,
     "category": "body_part",
     "nameJapanese": "Sakotsu",
     "nameKanji": "鎖骨",
@@ -264,8 +264,8 @@
     "nameSwedish": "Underliv"
   },
   {
-    "id": "0kyu-body_part-kansetsu",
-    "grade": 0,
+    "id": "6kyu-body_part-kansetsu",
+    "grade": 6,
     "category": "body_part",
     "nameJapanese": "Kansetsu",
     "nameKanji": "関節",
@@ -275,8 +275,8 @@
     "nameSwedish": "Led (knä)"
   },
   {
-    "id": "0kyu-direction-mae",
-    "grade": 0,
+    "id": "10kyu-direction-mae",
+    "grade": 10,
     "category": "direction",
     "nameJapanese": "Mae",
     "nameKanji": "前",
@@ -286,8 +286,8 @@
     "nameSwedish": "Fram / Framåt"
   },
   {
-    "id": "0kyu-direction-ushiro",
-    "grade": 0,
+    "id": "5kyu-direction-ushiro",
+    "grade": 5,
     "category": "direction",
     "nameJapanese": "Ushiro",
     "nameKanji": "後ろ",
@@ -297,8 +297,8 @@
     "nameSwedish": "Bak / Bakåt"
   },
   {
-    "id": "0kyu-direction-yoko",
-    "grade": 0,
+    "id": "7kyu-direction-yoko",
+    "grade": 7,
     "category": "direction",
     "nameJapanese": "Yoko",
     "nameKanji": "横",
@@ -308,8 +308,8 @@
     "nameSwedish": "Sida"
   },
   {
-    "id": "0kyu-direction-mawashi",
-    "grade": 0,
+    "id": "7kyu-direction-mawashi",
+    "grade": 7,
     "category": "direction",
     "nameJapanese": "Mawashi",
     "nameKanji": "回し",
@@ -319,8 +319,8 @@
     "nameSwedish": "Rundhugg / Cirkulär"
   },
   {
-    "id": "0kyu-direction-sayu",
-    "grade": 0,
+    "id": "6kyu-direction-sayu",
+    "grade": 6,
     "category": "direction",
     "nameJapanese": "Sayu",
     "nameKanji": "左右",
@@ -330,8 +330,8 @@
     "nameSwedish": "Vänster och höger"
   },
   {
-    "id": "0kyu-direction-uchi",
-    "grade": 0,
+    "id": "9kyu-direction-uchi",
+    "grade": 9,
     "category": "direction",
     "nameJapanese": "Uchi",
     "nameKanji": "内",
@@ -341,8 +341,8 @@
     "nameSwedish": "Inåt / Innanför"
   },
   {
-    "id": "0kyu-direction-soto",
-    "grade": 0,
+    "id": "9kyu-direction-soto",
+    "grade": 9,
     "category": "direction",
     "nameJapanese": "Soto",
     "nameKanji": "外",
@@ -352,8 +352,8 @@
     "nameSwedish": "Utåt / Utanför"
   },
   {
-    "id": "0kyu-direction-shomen",
-    "grade": 0,
+    "id": "6kyu-direction-shomen",
+    "grade": 6,
     "category": "direction",
     "nameJapanese": "Shomen",
     "nameKanji": "正面",
@@ -363,8 +363,8 @@
     "nameSwedish": "Framifrån / Direkt"
   },
   {
-    "id": "0kyu-modifier-oi",
-    "grade": 0,
+    "id": "10kyu-modifier-oi",
+    "grade": 10,
     "category": "modifier",
     "nameJapanese": "Oi",
     "nameKanji": "追い",
@@ -374,8 +374,8 @@
     "nameSwedish": "Jagande / Utfallsstegs-"
   },
   {
-    "id": "0kyu-modifier-gyaku",
-    "grade": 0,
+    "id": "9kyu-modifier-gyaku",
+    "grade": 9,
     "category": "modifier",
     "nameJapanese": "Gyaku",
     "nameKanji": "逆",
@@ -385,8 +385,8 @@
     "nameSwedish": "Omvänd"
   },
   {
-    "id": "0kyu-modifier-jun",
-    "grade": 0,
+    "id": "8kyu-modifier-jun",
+    "grade": 8,
     "category": "modifier",
     "nameJapanese": "Jun",
     "nameKanji": "順",
@@ -396,8 +396,8 @@
     "nameSwedish": "Följande / Semi (samma sida)"
   },
   {
-    "id": "0kyu-modifier-morote",
-    "grade": 0,
+    "id": "10kyu-modifier-morote",
+    "grade": 10,
     "category": "modifier",
     "nameJapanese": "Morote",
     "nameKanji": "諸手",
@@ -407,8 +407,8 @@
     "nameSwedish": "Dubbel / Bägge händer"
   },
   {
-    "id": "0kyu-modifier-age",
-    "grade": 0,
+    "id": "3kyu-modifier-age",
+    "grade": 3,
     "category": "modifier",
     "nameJapanese": "Age",
     "nameKanji": "上げ",
@@ -418,8 +418,8 @@
     "nameSwedish": "Uppåtgående / Stigande"
   },
   {
-    "id": "0kyu-modifier-oroshi",
-    "grade": 0,
+    "id": "7kyu-modifier-oroshi",
+    "grade": 7,
     "category": "modifier",
     "nameJapanese": "Oroshi",
     "nameKanji": "降ろし",
@@ -429,8 +429,8 @@
     "nameSwedish": "Nedåtgående / Fallande"
   },
   {
-    "id": "0kyu-modifier-tate",
-    "grade": 0,
+    "id": "8kyu-modifier-tate",
+    "grade": 8,
     "category": "modifier",
     "nameJapanese": "Tate",
     "nameKanji": "縦",
@@ -440,8 +440,8 @@
     "nameSwedish": "Vertikal"
   },
   {
-    "id": "0kyu-modifier-tobi",
-    "grade": 0,
+    "id": "2kyu-modifier-tobi",
+    "grade": 2,
     "category": "modifier",
     "nameJapanese": "Tobi",
     "nameKanji": "跳び",
@@ -451,8 +451,8 @@
     "nameSwedish": "Hoppande / Flygande"
   },
   {
-    "id": "0kyu-modifier-juji",
-    "grade": 0,
+    "id": "6kyu-modifier-juji",
+    "grade": 6,
     "category": "modifier",
     "nameJapanese": "Juji",
     "nameKanji": "十字",
@@ -462,8 +462,8 @@
     "nameSwedish": "Kors / X-format"
   },
   {
-    "id": "0kyu-modifier-keage",
-    "grade": 0,
+    "id": "7kyu-modifier-keage",
+    "grade": 7,
     "category": "modifier",
     "nameJapanese": "Keage",
     "nameKanji": "蹴上げ",
@@ -473,8 +473,8 @@
     "nameSwedish": "Snärtande / Uppåtspark"
   },
   {
-    "id": "0kyu-modifier-ura",
-    "grade": 0,
+    "id": "9kyu-modifier-ura",
+    "grade": 9,
     "category": "modifier",
     "nameJapanese": "Ura",
     "nameKanji": "裏",
@@ -484,8 +484,8 @@
     "nameSwedish": "Omvänd / Bak (katavariant)"
   },
   {
-    "id": "0kyu-modifier-kake",
-    "grade": 0,
+    "id": "3kyu-modifier-kake",
+    "grade": 3,
     "category": "modifier",
     "nameJapanese": "Kake",
     "nameKanji": "掛け",
@@ -572,8 +572,8 @@
     "nameSwedish": "Svärdspets"
   },
   {
-    "id": "0kyu-body_part-ashi",
-    "grade": 0,
+    "id": "7kyu-body_part-ashi",
+    "grade": 7,
     "category": "body_part",
     "nameJapanese": "Ashi",
     "nameKanji": "足",
@@ -616,8 +616,8 @@
     "nameSwedish": "Buk"
   },
   {
-    "id": "0kyu-body_part-hiji",
-    "grade": 0,
+    "id": "5kyu-body_part-hiji",
+    "grade": 5,
     "category": "body_part",
     "nameJapanese": "Hiji",
     "nameKanji": "肘",
@@ -649,8 +649,8 @@
     "nameSwedish": "Underkropp"
   },
   {
-    "id": "0kyu-body_part-kata",
-    "grade": 0,
+    "id": "4kyu-body_part-kata",
+    "grade": 4,
     "category": "body_part",
     "nameJapanese": "Kata",
     "nameKanji": "肩",
@@ -814,8 +814,8 @@
     "nameSwedish": "Arm"
   },
   {
-    "id": "0kyu-action-tsuki",
-    "grade": 0,
+    "id": "10kyu-action-tsuki",
+    "grade": 10,
     "category": "action",
     "nameJapanese": "Tsuki",
     "nameKanji": "突き",
@@ -825,8 +825,8 @@
     "nameSwedish": "Slag / Stöt"
   },
   {
-    "id": "0kyu-action-uchi",
-    "grade": 0,
+    "id": "9kyu-action-uchi",
+    "grade": 9,
     "category": "action",
     "nameJapanese": "Uchi",
     "nameKanji": "打ち",
@@ -836,8 +836,8 @@
     "nameSwedish": "Slag / Strike"
   },
   {
-    "id": "0kyu-action-uke",
-    "grade": 0,
+    "id": "10kyu-action-uke",
+    "grade": 10,
     "category": "action",
     "nameJapanese": "Uke",
     "nameKanji": "受け",
@@ -847,8 +847,8 @@
     "nameSwedish": "Block"
   },
   {
-    "id": "0kyu-action-geri",
-    "grade": 0,
+    "id": "10kyu-action-geri",
+    "grade": 10,
     "category": "action",
     "nameJapanese": "Geri",
     "nameKanji": "蹴り",
@@ -858,8 +858,8 @@
     "nameSwedish": "Spark"
   },
   {
-    "id": "0kyu-action-barai",
-    "grade": 0,
+    "id": "10kyu-action-barai",
+    "grade": 10,
     "category": "action",
     "nameJapanese": "Barai",
     "nameKanji": "払い",
@@ -869,8 +869,8 @@
     "nameSwedish": "Svepblock / Avvärjning"
   },
   {
-    "id": "0kyu-action-dachi",
-    "grade": 0,
+    "id": "10kyu-action-dachi",
+    "grade": 10,
     "category": "action",
     "nameJapanese": "Dachi",
     "nameKanji": "立ち",

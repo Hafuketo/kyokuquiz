@@ -15,8 +15,10 @@ const sv = {
   },
   filter: {
     gradeSection:   'Min grad — välj upp till',
-    techSection:    'Tekniker',
-    otherSection:   'Övrigt',
+    techSection:      'Tekniker',
+    wordsSection:     'Ord',
+    positionsSection: 'Positioner',
+    bodySection:      'Kroppsdelar',
     includeSection: 'Inkludera även',
     start:          'Start',
     cat_kick:           'Sparkar',

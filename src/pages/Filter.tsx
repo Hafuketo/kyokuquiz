@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Stack, Button } from 'react-bootstrap'
 import { FaHashtag, FaTrophy, FaBookOpen, FaScroll, FaMountainSun,
@@ -101,8 +101,12 @@ export default function Filter() {
     navigate(`/quiz/game?${params}`)
   }
 
-  const techRows  = GRID_ROWS.filter(r => r.section === 'tech')
-  const otherRows = GRID_ROWS.filter(r => r.section === 'other')
+  const sections: { key: string; labelKey: string; rows: typeof GRID_ROWS }[] = [
+    { key: 'tech',      labelKey: 'filter.techSection',      rows: GRID_ROWS.filter(r => r.section === 'tech')      },
+    { key: 'words',     labelKey: 'filter.wordsSection',     rows: GRID_ROWS.filter(r => r.section === 'words')     },
+    { key: 'positions', labelKey: 'filter.positionsSection', rows: GRID_ROWS.filter(r => r.section === 'positions') },
+    { key: 'body',      labelKey: 'filter.bodySection',      rows: GRID_ROWS.filter(r => r.section === 'body')      },
+  ]
 
   return (
     <PageLayout colProps={{ xs: 12, sm: 11, md: 9, lg: 8, xl: 7 }} align="start">
@@ -131,47 +135,35 @@ export default function Filter() {
                 </tr>
               </thead>
               <tbody>
-                {techRows.map(row => (
-                  <tr key={row.key}>
-                    <td className="grid-row-label" onClick={() => toggleRow(row.key)}
-                      title={ROW_ICONS[row.key] ? t(`filter.cat_${row.key}`) : undefined}>
-                      {ROW_ICONS[row.key] ?? t(`filter.cat_${row.key}`)}
-                    </td>
-                    {GRADES.map(g => {
-                      const key      = cellKey(g.value, row.key)
-                      const valid    = VALID_CELLS.has(key)
-                      const active   = valid && selectedCells.has(key)
-                      return (
-                        <td key={g.value}>
-                          <div
-                            className={`grid-cell${active ? ' grid-cell--active' : ''}${!valid ? ' grid-cell--disabled' : ''}`}
-                            onClick={() => toggleCell(g.value, row.key)}
-                          />
+                {sections.map(section => (
+                  <React.Fragment key={section.key}>
+                    <tr>
+                      <td colSpan={GRADES.length + 1} className="grid-section-label">
+                        {t(section.labelKey)}
+                      </td>
+                    </tr>
+                    {section.rows.map(row => (
+                      <tr key={row.key}>
+                        <td className="grid-row-label" onClick={() => toggleRow(row.key)}
+                          title={ROW_ICONS[row.key] ? t(`filter.cat_${row.key}`) : undefined}>
+                          {ROW_ICONS[row.key] ?? t(`filter.cat_${row.key}`)}
                         </td>
-                      )
-                    })}
-                  </tr>
-                ))}
-                {otherRows.map(row => (
-                  <tr key={row.key}>
-                    <td className="grid-row-label" onClick={() => toggleRow(row.key)}
-                      title={ROW_ICONS[row.key] ? t(`filter.cat_${row.key}`) : undefined}>
-                      {ROW_ICONS[row.key] ?? t(`filter.cat_${row.key}`)}
-                    </td>
-                    {GRADES.map(g => {
-                      const key      = cellKey(g.value, row.key)
-                      const valid    = VALID_CELLS.has(key)
-                      const active   = valid && selectedCells.has(key)
-                      return (
-                        <td key={g.value}>
-                          <div
-                            className={`grid-cell${active ? ' grid-cell--active' : ''}${!valid ? ' grid-cell--disabled' : ''}`}
-                            onClick={() => toggleCell(g.value, row.key)}
-                          />
-                        </td>
-                      )
-                    })}
-                  </tr>
+                        {GRADES.map(g => {
+                          const key    = cellKey(g.value, row.key)
+                          const valid  = VALID_CELLS.has(key)
+                          const active = valid && selectedCells.has(key)
+                          return (
+                            <td key={g.value}>
+                              <div
+                                className={`grid-cell${active ? ' grid-cell--active' : ''}${!valid ? ' grid-cell--disabled' : ''}`}
+                                onClick={() => toggleCell(g.value, row.key)}
+                              />
+                            </td>
+                          )
+                        })}
+                      </tr>
+                    ))}
+                  </React.Fragment>
                 ))}
               </tbody>
             </table>
