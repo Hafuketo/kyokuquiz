@@ -10,7 +10,7 @@ import Footer from './components/Footer'
 export default function App() {
   return (
     <div className="d-flex flex-column vh-100">
-      <main className="flex-grow-1 overflow-auto">
+      <main className="flex-grow-1 overflow-auto pb-5">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/quiz/filter" element={<Filter />} />
