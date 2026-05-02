@@ -19,13 +19,12 @@ const GRADES: { label: string; value: number }[] = [
   { label: '1 dan',  value: -1 },
 ]
 
-const TECH_CATEGORIES: { key: string; value: Category }[] = [
-  { key: 'cat_kick',   value: 'kick'   },
-  { key: 'cat_punch',  value: 'punch'  },
-  { key: 'cat_strike', value: 'strike' },
-  { key: 'cat_block',  value: 'block'  },
-  { key: 'cat_stance', value: 'stance' },
-  { key: 'cat_kata',   value: 'kata'   },
+const TECH_CATEGORIES: { key: string; values: Category[] }[] = [
+  { key: 'cat_kick',   values: ['kick']             },
+  { key: 'cat_punch',  values: ['punch', 'strike']  },
+  { key: 'cat_block',  values: ['block']             },
+  { key: 'cat_stance', values: ['stance']            },
+  { key: 'cat_kata',   values: ['kata']              },
 ]
 
 const OTHER_CATEGORIES: { key: string; value: Category | DictionaryCategory }[] = [
@@ -49,9 +48,9 @@ export default function Filter() {
   const navigate = useNavigate()
   const { t } = useTranslation()
 
-  const [selectedGrades, setSelectedGrades] = useState<number[]>(GRADES.map(g => g.value))
-  const [selectedCategories, setSelectedCategories] = useState<Category[]>(TECH_CATEGORIES.map(c => c.value))
-  const [selectedOther, setSelectedOther] = useState<(Category | DictionaryCategory)[]>([])
+  const [selectedGrades, setSelectedGrades] = useState<number[]>([10])
+  const [selectedCategories, setSelectedCategories] = useState<Category[]>(TECH_CATEGORIES.flatMap(c => c.values))
+  const [selectedOther, setSelectedOther] = useState<(Category | DictionaryCategory)[]>(OTHER_CATEGORIES.map(c => c.value))
   const [selectedExtras, setSelectedExtras] = useState<DictionaryCategory[]>([])
   const [includeDojokun, setIncludeDojokun] = useState(false)
   const [includeMottoes, setIncludeMottoes] = useState(false)
@@ -60,9 +59,10 @@ export default function Filter() {
     setSelectedGrades(GRADES.map(g => g.value).filter(v => v === -1 ? maxGrade === -1 : v >= maxGrade))
   }
 
-  function toggleCategory(value: Category) {
+  function toggleCategory(values: Category[]) {
+    const allSelected = values.every(v => selectedCategories.includes(v))
     setSelectedCategories(prev =>
-      prev.includes(value) ? prev.filter(c => c !== value) : [...prev, value]
+      allSelected ? prev.filter(c => !values.includes(c)) : [...prev, ...values.filter(v => !prev.includes(v))]
     )
   }
 
@@ -120,9 +120,9 @@ export default function Filter() {
           <Section title={t('filter.techSection')}>
             <div className="d-flex flex-wrap gap-2">
               {TECH_CATEGORIES.map(c => (
-                <Button key={c.value} size="sm"
-                  variant={selectedCategories.includes(c.value) ? 'warning' : 'outline-secondary'}
-                  onClick={() => toggleCategory(c.value)}
+                <Button key={c.key} size="sm"
+                  variant={c.values.every(v => selectedCategories.includes(v)) ? 'warning' : 'outline-secondary'}
+                  onClick={() => toggleCategory(c.values)}
                 >
                   {t(`filter.${c.key}`)}
                 </Button>
@@ -144,7 +144,7 @@ export default function Filter() {
           </Section>
 
           <Section title={t('filter.includeSection')}>
-            <div className="d-flex flex-wrap gap-2 mb-2">
+            <div className="d-flex flex-wrap gap-2">
               {EXTRA_CATEGORIES.map(c => (
                 <Button key={c.value} size="sm"
                   variant={selectedExtras.includes(c.value) ? 'warning' : 'outline-secondary'}
@@ -153,11 +153,19 @@ export default function Filter() {
                   {t(`filter.${c.key}`)}
                 </Button>
               ))}
+              <Button size="sm"
+                variant={includeDojokun ? 'warning' : 'outline-secondary'}
+                onClick={() => setIncludeDojokun(v => !v)}
+              >
+                {t('filter.dojokun')}
+              </Button>
+              <Button size="sm"
+                variant={includeMottoes ? 'warning' : 'outline-secondary'}
+                onClick={() => setIncludeMottoes(v => !v)}
+              >
+                {t('filter.mottos')}
+              </Button>
             </div>
-            <Stack gap={2}>
-              <ToggleRow emoji="🥋" label={t('filter.dojokun')} active={includeDojokun} onToggle={() => setIncludeDojokun(v => !v)} />
-              <ToggleRow emoji="📜" label={t('filter.mottos')}  active={includeMottoes} onToggle={() => setIncludeMottoes(v => !v)} />
-            </Stack>
           </Section>
 
         </Stack>
@@ -175,20 +183,3 @@ function Section({ title, children }: { title: string; children: React.ReactNode
   )
 }
 
-function ToggleRow({ emoji, label, active, onToggle }: { emoji: string; label: string; active: boolean; onToggle: () => void }) {
-  return (
-    <Button
-      variant={active ? 'outline-dark' : 'outline-secondary'}
-      className="d-flex align-items-center gap-3 text-start w-100"
-      onClick={onToggle}
-    >
-      <span className="fs-5">{emoji}</span>
-      <span className="flex-grow-1">{label}</span>
-      <span className="rounded-circle flex-shrink-0" style={{
-        width: 18, height: 18, border: '2px solid',
-        borderColor: active ? 'var(--kq-ink)' : 'var(--kq-border)',
-        backgroundColor: active ? 'var(--kq-ink)' : 'transparent',
-      }} />
-    </Button>
-  )
-}
