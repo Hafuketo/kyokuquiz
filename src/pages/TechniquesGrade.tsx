@@ -36,7 +36,7 @@ export default function TechniquesGrade() {
       <Scroll scrollable>
         <Stack gap={4}>
           <div className="d-flex align-items-center gap-3">
-            <Button variant="outline-dark" size="sm" onClick={() => navigate('/techniques')}>
+            <Button variant="outline-dark" size="sm" onClick={() => navigate('/wiki')}>
               ←
             </Button>
             <h2 className="fw-bold text-kq-ink ls-wide mb-0">

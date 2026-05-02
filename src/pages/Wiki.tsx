@@ -1,11 +1,14 @@
 import { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import { Stack, Button, Modal, ListGroup } from 'react-bootstrap'
-import { FaScroll, FaMountainSun, FaBookOpen, FaUser } from 'react-icons/fa6'
+import { FaScroll, FaMountainSun, FaUser, FaBook } from 'react-icons/fa6'
+import { MdHistoryEdu } from 'react-icons/md'
 import { useTranslation } from 'react-i18next'
 import { PageLayout, Scroll } from '../components/Scroll'
 import type { Precept } from '../data/types'
 import dojokun from '../data/dojokun.json'
 import mottos from '../data/sosaimottos.json'
+import { GRADES } from '../data/filterConfig'
 
 type TopicKey = 'dojokun' | 'mottos' | 'oyama' | 'history'
 
@@ -13,11 +16,12 @@ const TOPICS: { key: TopicKey; btnKey: string; icon: React.ReactNode }[] = [
   { key: 'dojokun', btnKey: 'wiki.dojokun_btn', icon: <FaScroll /> },
   { key: 'mottos',  btnKey: 'wiki.mottos_btn',  icon: <FaMountainSun /> },
   { key: 'oyama',   btnKey: 'wiki.oyama_btn',   icon: <FaUser /> },
-  { key: 'history', btnKey: 'wiki.history_btn', icon: <FaBookOpen /> },
+  { key: 'history', btnKey: 'wiki.history_btn', icon: <MdHistoryEdu /> },
 ]
 
 export default function Wiki() {
   const { t, i18n } = useTranslation()
+  const navigate = useNavigate()
   const [open, setOpen] = useState<TopicKey | null>(null)
 
   return (
@@ -25,6 +29,19 @@ export default function Wiki() {
       <Scroll>
         <Stack gap={3}>
           <h2 className="fw-bold text-kq-ink ls-wide mb-2">{t('wiki.title')}</h2>
+
+          <p className="mb-0 text-uppercase fw-semibold text-kq-mid fs-xs ls-label">{t('wiki.techniques_btn')}</p>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '0.5rem' }}>
+            {GRADES.map(g => (
+              <Button key={g.value}
+                className={`${g.beltClass} belt-active`}
+                onClick={() => navigate(`/wiki/${g.value}`)}
+              >
+                {g.label}
+              </Button>
+            ))}
+          </div>
+
           {TOPICS.map(({ key, btnKey, icon }) => (
             <Button key={key} variant="outline-dark" size="lg"
               className="d-flex align-items-center justify-content-start gap-3"
@@ -34,6 +51,13 @@ export default function Wiki() {
               {t(btnKey)}
             </Button>
           ))}
+          <Button variant="outline-dark" size="lg"
+            className="d-flex align-items-center justify-content-start gap-3"
+            onClick={() => navigate('/dictionary')}
+          >
+            <FaBook />
+            {t('home.dictionary')}
+          </Button>
         </Stack>
       </Scroll>
 
