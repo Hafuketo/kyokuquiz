@@ -19,12 +19,13 @@ export const GRADES: { label: string; shortLabel: string; value: number; beltCla
 ]
 
 export const GRID_ROWS: GridRow[] = [
-  { key: 'kick',          categories: ['kick'],            section: 'tech'      },
-  { key: 'punch',         categories: ['punch', 'strike'], section: 'tech'      },
-  { key: 'block',         categories: ['block'],           section: 'tech'      },
   { key: 'stance',        categories: ['stance'],          section: 'tech'      },
+  { key: 'punch',         categories: ['punch'], section: 'tech'      },
+  { key: 'block',         categories: ['block'],           section: 'tech'      },
+  { key: 'kick',          categories: ['kick'],            section: 'tech'      },
   { key: 'kata',          categories: ['kata'],            section: 'tech'      },
-  { key: 'breathing',     categories: ['breathing'],       section: 'tech'      },
+  { key: 'other',         categories: ['breathing'],       section: 'tech'      },
+  { key: 'kumite',        categories: ['kumite'],          section: 'tech'      },
   { key: 'level',         categories: ['level'],           section: 'words'     },
   { key: 'action',        categories: ['action'],          section: 'words'     },
   { key: 'direction',     categories: ['direction'],       section: 'words'     },
@@ -33,6 +34,10 @@ export const GRID_ROWS: GridRow[] = [
   { key: 'foot_position', categories: ['foot_position'],   section: 'positions' },
   { key: 'body_part',     categories: ['body_part'],       section: 'body'      },
 ]
+
+export const CATEGORY_TO_ROW_KEY: Record<string, string> = Object.fromEntries(
+  GRID_ROWS.flatMap(row => row.categories.map(cat => [cat, row.key]))
+)
 
 export function cellKey(grade: number, rowKey: string): string {
   return `${grade}|${rowKey}`
