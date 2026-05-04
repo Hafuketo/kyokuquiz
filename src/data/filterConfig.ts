@@ -24,8 +24,7 @@ export const GRID_ROWS: GridRow[] = [
   { key: 'block',         categories: ['block'],           section: 'tech'      },
   { key: 'kick',          categories: ['kick'],            section: 'tech'      },
   { key: 'kata',          categories: ['kata'],            section: 'tech'      },
-  { key: 'other',         categories: ['breathing'],       section: 'tech'      },
-  { key: 'kumite',        categories: ['kumite'],          section: 'tech'      },
+  { key: 'other',         categories: ['breathing', 'kumite'], section: 'tech'  },
   { key: 'words',     categories: ['level', 'action', 'direction', 'modifier'],   section: 'words'     },
   { key: 'positions', categories: ['hand_position', 'foot_position', 'body_part'], section: 'positions' },
 ]

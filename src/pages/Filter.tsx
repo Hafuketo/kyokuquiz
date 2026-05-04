@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { Stack, Button } from 'react-bootstrap'
+import { Stack, Button, Modal, ListGroup } from 'react-bootstrap'
 import { FaHashtag, FaTrophy, FaBookOpen, FaScroll, FaMountainSun,
-         FaShield, FaPerson, FaDragon, FaWind, FaFont, FaHand } from 'react-icons/fa6'
-import { GiHighKick, GiHighPunch, GiCrossedSwords } from 'react-icons/gi'
+         FaShield, FaPerson, FaDragon, FaWind, FaFont, FaHand, FaCircleInfo } from 'react-icons/fa6'
+import { GiHighKick, GiHighPunch } from 'react-icons/gi'
 import { useTranslation } from 'react-i18next'
 import { PageLayout, Scroll } from '../components/Scroll'
 import type { DictionaryCategory } from '../data/types'
@@ -17,15 +17,14 @@ const EXTRA_CATEGORIES: { key: string; value: DictionaryCategory; icon: React.Re
 ]
 
 const ROW_ICONS: Partial<Record<string, React.ReactNode>> = {
-  kick:      <GiHighKick       size={14} />,
-  punch:     <GiHighPunch      size={14} />,
-  block:     <FaShield         size={12} />,
-  stance:    <FaPerson         size={12} />,
-  kata:      <FaDragon         size={12} />,
-  other:     <FaWind           size={12} />,
-  kumite:    <GiCrossedSwords  size={14} />,
-  words:     <FaFont           size={12} />,
-  positions: <FaHand           size={12} />,
+  kick:      <GiHighKick       size={20} />,
+  punch:     <GiHighPunch      size={20} />,
+  block:     <FaShield         size={20} />,
+  stance:    <FaPerson         size={20} />,
+  kata:      <FaDragon         size={20} />,
+  other:     <FaWind           size={20} />,
+  words:     <FaFont           size={20} />,
+  positions: <FaHand           size={20} />,
 }
 
 function defaultCells(): Set<string> {
@@ -41,6 +40,7 @@ export default function Filter() {
   const navigate = useNavigate()
   const { t } = useTranslation()
 
+  const [showLegend, setShowLegend] = useState(false)
   const [selectedCells, setSelectedCells]   = useState<Set<string>>(defaultCells)
   const [selectedExtras, setSelectedExtras] = useState<DictionaryCategory[]>([])
   const [includeDojokun, setIncludeDojokun] = useState(false)
@@ -96,9 +96,9 @@ export default function Filter() {
     navigate(`/quiz/game?${params}`)
   }
 
-  const sections: { key: string; rows: typeof GRID_ROWS }[] = [
+  const sections: { key: string; label?: string; rows: typeof GRID_ROWS }[] = [
     { key: 'tech',      rows: GRID_ROWS.filter(r => r.section === 'tech')      },
-    { key: 'words',     rows: GRID_ROWS.filter(r => r.section === 'words')     },
+    { key: 'words',     label: t('filter.terminologySection'), rows: GRID_ROWS.filter(r => r.section === 'words')     },
     { key: 'positions', rows: GRID_ROWS.filter(r => r.section === 'positions') },
   ]
 
@@ -116,7 +116,9 @@ export default function Filter() {
             <table className="filter-grid">
               <thead>
                 <tr>
-                  <td />
+                  <td className="grid-row-label" style={{ cursor: 'pointer' }} onClick={() => setShowLegend(true)}>
+                    <FaCircleInfo size={14} />
+                  </td>
                   {GRADES.map(g => {
                     const validKeys = GRID_ROWS.map(r => cellKey(g.value, r.key)).filter(k => VALID_CELLS.has(k))
                     const allOn = validKeys.length > 0 && validKeys.every(k => selectedCells.has(k))
@@ -137,6 +139,13 @@ export default function Filter() {
               <tbody>
                 {sections.map(section => (
                   <React.Fragment key={section.key}>
+                    {section.label && (
+                      <tr>
+                        <td colSpan={GRADES.length + 1} className="grid-section-label">
+                          
+                        </td>
+                      </tr>
+                    )}
                     {section.rows.map(row => (
                       <tr key={row.key}>
                         <td className="grid-row-label" onClick={() => toggleRow(row.key)}
@@ -164,37 +173,64 @@ export default function Filter() {
             </table>
           </div>
 
-          <div className="d-flex flex-wrap gap-2">
-            {EXTRA_CATEGORIES.map(c => (
-              <Button key={c.value} size="sm" className="d-flex align-items-center gap-2"
-                variant={selectedExtras.includes(c.value) ? 'dark' : 'outline-dark'}
-                onClick={() => toggleExtra(c.value)}
-              >
-                {c.icon}
-                {t(`filter.${c.key}`)}
-              </Button>
-            ))}
-            <Button size="sm" className="d-flex align-items-center gap-2"
-              variant={includeDojokun ? 'dark' : 'outline-dark'}
-              onClick={() => setIncludeDojokun(v => !v)}
-            >
-              <FaScroll />
-              {t('filter.dojokun')}
-            </Button>
-            <Button size="sm" className="d-flex align-items-center gap-2"
-              variant={includeMottoes ? 'dark' : 'outline-dark'}
-              onClick={() => setIncludeMottoes(v => !v)}
-            >
-              <FaMountainSun />
-              {t('filter.mottos')}
-            </Button>
-          </div>
+          <table className="filter-grid">
+            <tbody>
+              <tr>
+                {EXTRA_CATEGORIES.map(c => (
+                  <td key={c.value} title={t(`filter.${c.key}`)}>
+                    <div
+                      className={`grid-cell${selectedExtras.includes(c.value) ? ' grid-cell--active' : ''}`}
+                      onClick={() => toggleExtra(c.value)}
+                    >
+                      {c.icon}
+                    </div>
+                  </td>
+                ))}
+                <td title={t('filter.dojokun')}>
+                  <div
+                    className={`grid-cell${includeDojokun ? ' grid-cell--active' : ''}`}
+                    onClick={() => setIncludeDojokun(v => !v)}
+                  >
+                    <FaScroll />
+                  </div>
+                </td>
+                <td title={t('filter.mottos')}>
+                  <div
+                    className={`grid-cell${includeMottoes ? ' grid-cell--active' : ''}`}
+                    onClick={() => setIncludeMottoes(v => !v)}
+                  >
+                    <FaMountainSun />
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
 
         </Stack>
         <Button variant="dark" size="lg" className="w-100 mt-4" disabled={!canStart} onClick={handleStart}>
           {t('filter.start')}
         </Button>
       </Scroll>
+      <Modal show={showLegend} onHide={() => setShowLegend(false)} centered>
+        <Modal.Header closeButton className="border-0 pb-0">
+          <Modal.Title className="text-kq-ink">{t('filter.legendTitle')}</Modal.Title>
+        </Modal.Header>
+        <Modal.Body className="px-3 pt-2">
+          <ListGroup variant="flush">
+            {GRID_ROWS.map(row => (
+              <ListGroup.Item key={row.key} className="px-0 py-2 d-flex align-items-center gap-3">
+                <span className="text-kq-mid" style={{ width: 24, textAlign: 'center' }}>
+                  {ROW_ICONS[row.key]}
+                </span>
+                <span className="text-kq-ink">{rowTitle(row)}</span>
+              </ListGroup.Item>
+            ))}
+          </ListGroup>
+        </Modal.Body>
+        <Modal.Footer className="border-0 justify-content-center pt-0">
+          <Button variant="outline-dark" onClick={() => setShowLegend(false)}>{t('dictionary.close')}</Button>
+        </Modal.Footer>
+      </Modal>
     </PageLayout>
   )
 }

@@ -1,8 +1,8 @@
 .filter-grid {
   --grid-width:      25px;
   --grid-height:     25px;
-  --grid-font:       0.7rem;
-  --grid-label-font: 0.7rem;
+  --grid-font:       0.9rem;
+  --grid-label-font: 0.9rem;
   --grid-radius:     25px;
 
   border-collapse: collapse;
@@ -29,6 +29,7 @@
   cursor: pointer;
   letter-spacing: 0;
   transition: opacity 0.15s;
+  margin: 5px;
 }
 
 .grid-row-label {
@@ -46,10 +47,17 @@
 .grid-cell {
   width: var(--grid-width);
   height: var(--grid-height);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
-  background-color: var(--kq-ink-mid); opacity: 0.3; 
-  transition: background-color 0.4s;
+  background-color: var(--kq-ink-mid);
+  opacity: 0.3;
+  transition: background-color 0.4s, opacity 0.2s;
   border-radius: var(--grid-radius);
+  margin: 5px;
+  color: var(--kq-ink);
 }
-.grid-cell--active { background-color: var(--kq-ink); opacity: 1 }
-.grid-cell--disabled, .grid-cell--disabled:hover { background: transparent; opacity: 0; cursor: default; }
+.grid-cell--active         { background-color: var(--kq-ink); opacity: 1; color: #fff; }
+.grid-cell--disabled,
+.grid-cell--disabled:hover { background: transparent; opacity: 0; cursor: default; }
