@@ -34,7 +34,7 @@ export default function Wiki() {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '0.5rem' }}>
             {GRADES.map(g => (
               <Button key={g.value}
-                className={`${g.beltClass} belt-active`}
+                className={`${g.beltClass} belt-active text-uppercase`}
                 onClick={() => navigate(`/wiki/${g.value}`)}
               >
                 {g.label}

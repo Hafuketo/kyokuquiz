@@ -2,8 +2,7 @@ import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Stack, Button } from 'react-bootstrap'
 import { FaHashtag, FaTrophy, FaBookOpen, FaScroll, FaMountainSun,
-         FaShield, FaPerson, FaDragon, FaWind, FaHand, FaShoePrints,
-         FaCircleDot, FaArrowsUpDown, FaCompass, FaSliders, FaBolt } from 'react-icons/fa6'
+         FaShield, FaPerson, FaDragon, FaWind, FaFont, FaHand } from 'react-icons/fa6'
 import { GiHighKick, GiHighPunch, GiCrossedSwords } from 'react-icons/gi'
 import { useTranslation } from 'react-i18next'
 import { PageLayout, Scroll } from '../components/Scroll'
@@ -18,20 +17,15 @@ const EXTRA_CATEGORIES: { key: string; value: DictionaryCategory; icon: React.Re
 ]
 
 const ROW_ICONS: Partial<Record<string, React.ReactNode>> = {
-  kick:          <GiHighKick    size={14} />,
-  punch:         <GiHighPunch  size={14} />,
-  block:         <FaShield      size={12} />,
-  stance:        <FaPerson      size={12} />,
-  kata:          <FaDragon      size={12} />,
-  other:         <FaWind        size={12} />,
-  kumite:        <GiCrossedSwords size={14} />,
-  hand_position: <FaHand        size={12} />,
-  foot_position: <FaShoePrints  size={12} />,
-  body_part:     <FaCircleDot   size={12} />,
-  level:         <FaArrowsUpDown size={12} />,
-  direction:     <FaCompass     size={12} />,
-  modifier:      <FaSliders     size={12} />,
-  action:        <FaBolt        size={12} />,
+  kick:      <GiHighKick       size={14} />,
+  punch:     <GiHighPunch      size={14} />,
+  block:     <FaShield         size={12} />,
+  stance:    <FaPerson         size={12} />,
+  kata:      <FaDragon         size={12} />,
+  other:     <FaWind           size={12} />,
+  kumite:    <GiCrossedSwords  size={14} />,
+  words:     <FaFont           size={12} />,
+  positions: <FaHand           size={12} />,
 }
 
 function defaultCells(): Set<string> {
@@ -102,12 +96,16 @@ export default function Filter() {
     navigate(`/quiz/game?${params}`)
   }
 
-  const sections: { key: string; labelKey: string; rows: typeof GRID_ROWS }[] = [
-    { key: 'tech',      labelKey: 'filter.techSection',      rows: GRID_ROWS.filter(r => r.section === 'tech')      },
-    { key: 'words',     labelKey: 'filter.wordsSection',     rows: GRID_ROWS.filter(r => r.section === 'words')     },
-    { key: 'positions', labelKey: 'filter.positionsSection', rows: GRID_ROWS.filter(r => r.section === 'positions') },
-    { key: 'body',      labelKey: 'filter.bodySection',      rows: GRID_ROWS.filter(r => r.section === 'body')      },
+  const sections: { key: string; rows: typeof GRID_ROWS }[] = [
+    { key: 'tech',      rows: GRID_ROWS.filter(r => r.section === 'tech')      },
+    { key: 'words',     rows: GRID_ROWS.filter(r => r.section === 'words')     },
+    { key: 'positions', rows: GRID_ROWS.filter(r => r.section === 'positions') },
   ]
+
+  function rowTitle(row: typeof GRID_ROWS[number]): string {
+    if (row.categories.length === 1) return t(`filter.cat_${row.key}`)
+    return row.categories.map(c => t(`filter.cat_${c}`)).join(' · ')
+  }
 
   return (
     <PageLayout colProps={{ xs: 12, sm: 11, md: 9, lg: 8, xl: 7 }} align="start">
@@ -120,7 +118,8 @@ export default function Filter() {
                 <tr>
                   <td />
                   {GRADES.map(g => {
-                    const allOn = GRID_ROWS.every(r => selectedCells.has(cellKey(g.value, r.key)))
+                    const validKeys = GRID_ROWS.map(r => cellKey(g.value, r.key)).filter(k => VALID_CELLS.has(k))
+                    const allOn = validKeys.length > 0 && validKeys.every(k => selectedCells.has(k))
                     return (
                       <th key={g.value} className="grade-col-header">
                         <button
@@ -138,15 +137,10 @@ export default function Filter() {
               <tbody>
                 {sections.map(section => (
                   <React.Fragment key={section.key}>
-                    <tr>
-                      <td colSpan={GRADES.length + 1} className="grid-section-label">
-                        {t(section.labelKey)}
-                      </td>
-                    </tr>
                     {section.rows.map(row => (
                       <tr key={row.key}>
                         <td className="grid-row-label" onClick={() => toggleRow(row.key)}
-                          title={ROW_ICONS[row.key] ? t(`filter.cat_${row.key}`) : undefined}>
+                          title={rowTitle(row)}>
                           {ROW_ICONS[row.key] ?? t(`filter.cat_${row.key}`)}
                         </td>
                         {GRADES.map(g => {

@@ -1,17 +1,18 @@
 .filter-grid {
-  --grid-width:      100%;
+  --grid-width:      25px;
   --grid-height:     25px;
-  --grid-gap:        0px;
-  --grid-row-gap:    0px;
   --grid-font:       0.7rem;
   --grid-label-font: 0.7rem;
-  --grid-radius:     4px;
+  --grid-radius:     25px;
 
-  border-collapse: separate;
-  border-spacing: var(--grid-gap) var(--grid-row-gap);
+  border-collapse: collapse;
+  width: auto;
+}
+.filter-grid td, .filter-grid th {
+  border: 1px solid var(--kq-border);
 }
 .grade-col-header {
-  width: 9%;
+  width: var(--grid-width);
 }
 
 .grade-col-btn {
@@ -31,26 +32,24 @@
 }
 
 .grid-row-label {
+  min-width: var(--grid-width);
+  height: var(--grid-height);
   font-size: var(--grid-label-font);
   color: var(--kq-ink-mid);
   white-space: nowrap;
   cursor: pointer;
   user-select: none;
-  text-align: right;
+  text-align: center;
 }
 .grid-row-label:hover { color: var(--kq-ink); }
 
 .grid-cell {
   width: var(--grid-width);
   height: var(--grid-height);
-  border-radius: var(--grid-radius);
-  border: 1px solid var(--kq-border);
   cursor: pointer;
-  background: transparent;
-  transition: background-color 0.1s, border-color 0.1s;
+  background-color: var(--kq-ink-mid); opacity: 0.3; 
+  transition: background-color 0.4s;
+  border-radius: var(--grid-radius);
 }
-.grid-cell:hover                { border-color: var(--kq-ink-mid); background: #e8d8b8; }
-.grid-cell--active              { background-color: var(--kq-ink); border-color: var(--kq-ink); }
-.grid-cell--active:hover        { background-color: var(--kq-ink-mid); border-color: var(--kq-ink-mid); }
-.grid-cell--disabled            { opacity: 0.15; cursor: default; }
-.grid-cell--disabled:hover      { background: transparent; border-color: var(--kq-border); }
+.grid-cell--active { background-color: var(--kq-ink); opacity: 1 }
+.grid-cell--disabled, .grid-cell--disabled:hover { background: transparent; opacity: 0; cursor: default; }

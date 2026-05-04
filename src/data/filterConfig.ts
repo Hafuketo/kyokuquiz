@@ -26,13 +26,8 @@ export const GRID_ROWS: GridRow[] = [
   { key: 'kata',          categories: ['kata'],            section: 'tech'      },
   { key: 'other',         categories: ['breathing'],       section: 'tech'      },
   { key: 'kumite',        categories: ['kumite'],          section: 'tech'      },
-  { key: 'level',         categories: ['level'],           section: 'words'     },
-  { key: 'action',        categories: ['action'],          section: 'words'     },
-  { key: 'direction',     categories: ['direction'],       section: 'words'     },
-  { key: 'modifier',      categories: ['modifier'],        section: 'words'     },
-  { key: 'hand_position', categories: ['hand_position'],   section: 'positions' },
-  { key: 'foot_position', categories: ['foot_position'],   section: 'positions' },
-  { key: 'body_part',     categories: ['body_part'],       section: 'body'      },
+  { key: 'words',     categories: ['level', 'action', 'direction', 'modifier'],   section: 'words'     },
+  { key: 'positions', categories: ['hand_position', 'foot_position', 'body_part'], section: 'positions' },
 ]
 
 export const CATEGORY_TO_ROW_KEY: Record<string, string> = Object.fromEntries(

@@ -1,7 +1,7 @@
 const sv = {
   nav: {
     journey:    'Resan',
-    quick:      'Snabbspel',
+    quick:      'Snabbt spel',
     home:       'Hem',
     dictionary: 'Ordlista',
     theory:     'Teori',
@@ -18,11 +18,9 @@ const sv = {
     title: 'Tekniker',
   },
   filter: {
-    gradeSection:   'Min grad — välj upp till',
     techSection:      'Tekniker',
     wordsSection:     'Ord',
-    positionsSection: 'Positioner',
-    bodySection:      'Kroppsdelar',
+    positionsAndBodySection: 'Positioner & Kroppsdelar',
     includeSection: 'Inkludera även',
     start:          'Start',
     cat_kick:           'Sparkar',
@@ -32,6 +30,8 @@ const sv = {
     cat_kata:           'Kata',
     cat_other:          'Övrigt',
     cat_kumite:         'Kumite',
+    cat_words:          'Ord',
+    cat_positions:      'Positioner',
     cat_hand_position:  'Handposition',
     cat_foot_position:  'Fotposition',
     cat_body_part:      'Kroppsdel',
@@ -67,6 +67,7 @@ const sv = {
   },
   wiki: {
     title: 'Teori',
+    techniques_btn: 'Tekniker',
     dojokun_btn:  'Dojo-kun',
     mottos_btn:   'Sosais motton',
     oyama_btn:    'Mas Oyama',
