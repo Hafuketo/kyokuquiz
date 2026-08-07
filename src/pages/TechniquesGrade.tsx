@@ -7,7 +7,7 @@ import type { Category, Technique } from '../data/types'
 import techniquesRaw from '../data/techniques.json'
 import { GRADES, CATEGORY_TO_ROW_KEY } from '../data/filterConfig'
 
-const CATEGORY_ORDER: Category[] = ['stance', 'punch', 'strike', 'block', 'kick', 'kata', 'breathing', 'kumite']
+const CATEGORY_ORDER: Category[] = ['stance', 'punch', 'block', 'kick', 'kata', 'breathing', 'kumite']
 
 export default function TechniquesGrade() {
   const { grade: gradeParam } = useParams()
