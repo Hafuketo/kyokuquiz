@@ -56,8 +56,8 @@ export default function Footer() {
                 onClick={() => i18n.changeLanguage(otherLang)}
                 style={{ minWidth: 44 }}
               >
-                <span style={{ fontSize: '1.1rem', lineHeight: 1 }}>{otherLang === 'en' ? '🇬🇧' : '🇸🇪'}</span>
-                <span className="fs-xs">{otherLang.toUpperCase()}</span>
+                <span style={{ fontSize: '1.1rem', lineHeight: 1 }}>{i18n.language === 'en' ? '🇬🇧' : '🇸🇪'}</span>
+                <span className="fs-xs">{i18n.language.toUpperCase()}</span>
               </Button>
 
             </div>
