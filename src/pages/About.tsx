@@ -1,6 +1,7 @@
 import { Stack } from 'react-bootstrap'
 import { useTranslation } from 'react-i18next'
 import { PageLayout, Scroll } from '../components/Scroll'
+import { version } from '../../package.json'
 
 export default function About() {
   const { t } = useTranslation()
@@ -17,6 +18,7 @@ export default function About() {
           <p className="text-kq-ink mb-0">{t('about.desc2')}</p>
           <hr className="border-kq-border" />
           <p className="text-kq-mid fs-xs mb-0">{t('about.footer')}</p>
+          <p className="text-kq-mid fs-xs text-center mb-0">v{version}</p>
         </Stack>
       </Scroll>
     </PageLayout>
