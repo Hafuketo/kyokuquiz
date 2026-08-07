@@ -1,30 +1,19 @@
+// Automatic question generation for techniques and dictionary words. buildPool() filters
+// techniques.json/dictionary.json down to the grade/category cells the player selected.
+// generateQuestions() then picks random entries from that pool, builds distractors from
+// same-grade entries first and higher-grade entries as fallback (pickDistractors), and
+// assembles each into an EntryQuestion: entries with an image get 'image_to_name' or
+// 'name_to_image' (coin flip), entries without one get 'term_to_meaning'. Distractor count
+// (and therefore option count) follows the requested difficulty.
 import type { DictionaryCategory, Technique, DictionaryEntry } from '../data/types'
+import type { AnyEntry, EntryQuestion } from './types'
+import { shuffle } from './types'
 import techniquesRaw from '../data/techniques.json'
 import dictionaryRaw from '../data/dictionary.json'
 
 const TECH_CATS = new Set(['kick', 'punch', 'block', 'stance', 'kata', 'breathing'])
 
-export type AnyEntry = (Technique | DictionaryEntry) & { _src: 'tech' | 'dict' }
-
-export type Question =
-  | { type: 'image_to_name'; imagePath: string; options: AnyEntry[]; correctId: string }
-  | { type: 'name_to_image'; nameJapanese: string; nameSwedish: string; nameEnglish: string; options: AnyEntry[]; correctId: string }
-
-export function entryImagePath(entry: AnyEntry): string {
-  const folder = entry._src === 'tech' ? 'techniques' : 'dictionary'
-  return `/images/${folder}/${entry.image}.png`
-}
-
-function shuffle<T>(arr: T[]): T[] {
-  const a = [...arr]
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]]
-  }
-  return a
-}
-
-function pickDistractors(correct: AnyEntry, pool: AnyEntry[], count = 3): AnyEntry[] {
+function pickDistractors(correct: AnyEntry, pool: AnyEntry[], count: number): AnyEntry[] {
   const eligible = pool.filter(e => {
     if (e.id === correct.id) return false
     if (correct.grade === -1) return e.grade === -1
@@ -67,35 +56,24 @@ export function buildPool(params: {
   return pool
 }
 
-export function generateQuestions(pool: AnyEntry[], count = 10): Question[] {
-  const withImages = pool.filter(e => !!e.image)
-  if (withImages.length < 4) return []
+export function generateQuestions(pool: AnyEntry[], count: number, difficulty: number): EntryQuestion[] {
+  const distractorCount = difficulty - 1
+  const questions: EntryQuestion[] = []
 
-  const questions: Question[] = []
-
-  for (const correct of shuffle(withImages).slice(0, count)) {
-    const distractors = pickDistractors(correct, withImages)
-    if (distractors.length < 3) continue
+  for (const correct of shuffle(pool).slice(0, count)) {
+    const distractors = pickDistractors(correct, pool, distractorCount)
+    if (distractors.length < distractorCount) continue
 
     const options = shuffle([correct, ...distractors])
+    const type = !correct.image ? 'term_to_meaning' : Math.random() < 0.5 ? 'image_to_name' : 'name_to_image'
 
-    if (Math.random() < 0.5) {
-      questions.push({
-        type: 'image_to_name',
-        imagePath: entryImagePath(correct),
-        options,
-        correctId: correct.id,
-      })
-    } else {
-      questions.push({
-        type: 'name_to_image',
-        nameJapanese: correct.nameJapanese,
-        nameSwedish: (correct as DictionaryEntry).nameSwedish ?? '',
-        nameEnglish: correct.nameEnglish,
-        options,
-        correctId: correct.id,
-      })
-    }
+    questions.push({
+      id:      `gen-${correct.id}`,
+      kind:    'entry',
+      type,
+      correct,
+      options,
+    })
   }
 
   return questions
