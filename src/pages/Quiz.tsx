@@ -4,7 +4,7 @@ import { Stack, Button } from 'react-bootstrap'
 import { useTranslation } from 'react-i18next'
 import { PageLayout, Scroll } from '../components/Scroll'
 import QuestionCard from '../quiz/QuestionCard'
-import { buildPool, generateQuestions } from '../quiz/generator'
+import { loadQuestions } from '../quiz/loader'
 import { GRID_ROWS } from '../data/filterConfig'
 
 export default function Quiz() {
@@ -15,6 +15,9 @@ export default function Quiz() {
   const questions = useMemo(() => {
     const cellsParam = searchParams.get('cells')?.split(',').filter(Boolean) ?? []
     const extras     = searchParams.get('extras')?.split(',').filter(Boolean) ?? []
+    const difficulty = Number(searchParams.get('difficulty') ?? '4')
+    const dojokun    = searchParams.get('dojokun') === '1'
+    const mottoes    = searchParams.get('mottoes') === '1'
 
     const gradeMap = new Map<number, string[]>()
     for (const key of cellsParam) {
@@ -27,8 +30,7 @@ export default function Quiz() {
     }
     const cells = [...gradeMap.entries()].map(([grade, categories]) => ({ grade, categories }))
 
-    const pool = buildPool({ cells, extras })
-    return generateQuestions(pool, 10)
+    return loadQuestions({ cells, extras, difficulty, dojokun, mottoes })
   }, [searchParams])
 
   const [index, setIndex]   = useState(0)
