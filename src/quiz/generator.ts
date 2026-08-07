@@ -44,11 +44,19 @@ export function buildPool(params: {
   const extraCats = new Set(extras as DictionaryCategory[])
 
   for (const d of dictionaryRaw as DictionaryEntry[]) {
-    const cell = cells.find(c => c.grade === d.grade)
-    const inCells  = cell != null && !TECH_CATS.has(d.category) && cell.categories.includes(d.category)
-    const inExtras = extraCats.size > 0 && selectedGrades.has(d.grade) && extraCats.has(d.category)
+    // grade 0 = universal (terminology, tournament, number, and some hand/body/direction
+    // entries): not tied to any grade, so it's never gated by selectedGrades — only by
+    // whether its category is picked, via a cell or via extras.
+    const included = d.grade === 0
+      ? cells.some(c => c.categories.includes(d.category)) || extraCats.has(d.category)
+      : (() => {
+          const cell = cells.find(c => c.grade === d.grade)
+          const inCells  = cell != null && !TECH_CATS.has(d.category) && cell.categories.includes(d.category)
+          const inExtras = extraCats.size > 0 && selectedGrades.has(d.grade) && extraCats.has(d.category)
+          return inCells || inExtras
+        })()
 
-    if (inCells || inExtras) {
+    if (included) {
       pool.push({ ...d, _src: 'dict' as const })
     }
   }
