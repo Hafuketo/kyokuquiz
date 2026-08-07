@@ -4,20 +4,20 @@
   --kq-scroll:    #faf7f2;
   --kq-ink:       #0a0500;
   --kq-ink-mid:   #5c3c20;
-  --kq-gold:      #8b6018;
+  --kq-gold:      #D4AF37;
   --kq-border:    #c0a070;
   --kq-rice:      #faf7f2;
   --kq-seal:      #8b1a1a;
 
   /* ── Belt colors ───────────────────────────────────── */
-  --belt-orange:  #e16602;
-  --belt-blue:    #0000aa;
-  --belt-yellow:  #ae8000;
-  --belt-green:   #00a600;
-  --belt-brown:   #4a2617;
-  --belt-black:   #0a0500;
-  --belt-stripe:  #0a0500;
-  --belt-stripe-gold: #8b6018;
+  --belt-orange:  #e3a701;
+  --belt-blue:    #0000d6;
+  --belt-yellow:  #baba00;
+  --belt-green:   #009d00;
+  --belt-brown:   #5c3c20;
+  --belt-black:   var(--kq-ink);
+  --belt-stripe:  var(--kq-ink);
+  --belt-stripe-gold: var(--kq-gold);
 
   --bs-body-bg:         var(--kq-wall);
   --bs-body-color:      var(--kq-ink);
