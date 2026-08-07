@@ -1,33 +1,37 @@
 import { useState } from 'react'
 import { Button, Row, Col } from 'react-bootstrap'
 import { useTranslation } from 'react-i18next'
-import type { Question, AnyEntry } from './generator'
-import { entryImagePath } from './generator'
+import type { RenderedQuestion, AnyEntry } from './types'
+import { entryImagePath } from './types'
 import './QuestionCard.css'
 
 interface Props {
-  question: Question
-  index: number
-  total: number
-  onNext: (correct: boolean) => void
+  question: RenderedQuestion
+  index:    number
+  total:    number
+  onNext:   (correct: boolean) => void
+}
+
+function renderClozeTemplate(template: string): string[] {
+  return template.split(/(\{\{blank\}\}|\{\{hide\}\})/)
 }
 
 export default function QuestionCard({ question, index, total, onNext }: Props) {
-  const [selectedId, setSelectedId] = useState<string | null>(null)
+  const [selectedValue, setSelectedValue] = useState<string | null>(null)
   const { i18n } = useTranslation()
 
-  const answered  = selectedId !== null
-  const correctId = question.correctId
+  const answered  = selectedValue !== null
+  const correctValue = question.kind === 'entry' ? question.correct.id : question.correct
 
-  function handleSelect(id: string) {
+  function handleSelect(value: string) {
     if (answered) return
-    setSelectedId(id)
+    setSelectedValue(value)
   }
 
-  function optionState(entry: AnyEntry): 'correct' | 'wrong' | 'dim' | 'idle' {
+  function optionState(value: string): 'correct' | 'wrong' | 'dim' | 'idle' {
     if (!answered) return 'idle'
-    if (entry.id === correctId) return 'correct'
-    if (entry.id === selectedId) return 'wrong'
+    if (value === correctValue) return 'correct'
+    if (value === selectedValue) return 'wrong'
     return 'dim'
   }
 
@@ -42,11 +46,11 @@ export default function QuestionCard({ question, index, total, onNext }: Props) 
         {index + 1} / {total}
       </p>
 
-      {question.type === 'image_to_name' ? (
+      {question.kind === 'entry' && question.type === 'image_to_name' && (
         <>
           <div className="text-center">
             <img
-              src={question.imagePath}
+              src={entryImagePath(question.correct)}
               alt=""
               className="img-fluid rounded"
               style={{ maxHeight: 220, objectFit: 'contain' }}
@@ -56,7 +60,7 @@ export default function QuestionCard({ question, index, total, onNext }: Props) 
             {question.options.map(entry => (
               <Col xs={6} key={entry.id}>
                 <Button
-                  className={`w-100 answer-btn answer-btn--${optionState(entry)}`}
+                  className={`w-100 answer-btn answer-btn--${optionState(entry.id)}`}
                   onClick={() => handleSelect(entry.id)}
                 >
                   <span className="fw-semibold d-block">{entry.nameJapanese}</span>
@@ -66,15 +70,17 @@ export default function QuestionCard({ question, index, total, onNext }: Props) 
             ))}
           </Row>
         </>
-      ) : (
+      )}
+
+      {question.kind === 'entry' && question.type === 'name_to_image' && (
         <>
           <div className="text-center">
             <p className="fw-bold text-kq-ink mb-1" style={{ fontSize: '1.6rem' }}>
-              {question.nameJapanese}
+              {question.correct.nameJapanese}
             </p>
             {answered && (
               <p className="text-kq-mid mb-0" style={{ fontSize: '0.9rem' }}>
-                {i18n.language === 'sv' ? question.nameSwedish || question.nameEnglish : question.nameEnglish}
+                {translation(question.correct)}
               </p>
             )}
           </div>
@@ -82,7 +88,7 @@ export default function QuestionCard({ question, index, total, onNext }: Props) 
             {question.options.map(entry => (
               <Col xs={6} key={entry.id}>
                 <button
-                  className={`answer-img-btn answer-img-btn--${optionState(entry)} w-100 p-1 rounded`}
+                  className={`answer-img-btn answer-img-btn--${optionState(entry.id)} w-100 p-1 rounded`}
                   onClick={() => handleSelect(entry.id)}
                 >
                   <img
@@ -98,8 +104,60 @@ export default function QuestionCard({ question, index, total, onNext }: Props) 
         </>
       )}
 
+      {question.kind === 'entry' && question.type === 'term_to_meaning' && (
+        <>
+          <div className="text-center">
+            <p className="fw-bold text-kq-ink mb-1" style={{ fontSize: '1.6rem' }}>
+              {question.correct.nameJapanese}
+            </p>
+            {question.correct.nameKanji && (
+              <p className="text-kq-gold mb-0" style={{ fontSize: '1.1rem' }}>{question.correct.nameKanji}</p>
+            )}
+            {question.correct.nameHiragana && (
+              <p className="text-kq-mid mb-0" style={{ fontSize: '0.85rem' }}>{question.correct.nameHiragana}</p>
+            )}
+          </div>
+          <Row className="g-2">
+            {question.options.map(entry => (
+              <Col xs={6} key={entry.id}>
+                <Button
+                  className={`w-100 answer-btn answer-btn--${optionState(entry.id)}`}
+                  onClick={() => handleSelect(entry.id)}
+                >
+                  {translation(entry)}
+                </Button>
+              </Col>
+            ))}
+          </Row>
+        </>
+      )}
+
+      {question.kind === 'cloze' && (
+        <>
+          <p className="text-kq-ink text-center mb-0" style={{ fontSize: '1.15rem', lineHeight: 1.5 }}>
+            {renderClozeTemplate(question.template).map((part, i) => {
+              if (part === '{{blank}}') return <span key={i} className="cloze-blank">_____</span>
+              if (part === '{{hide}}')  return <span key={i} className="cloze-hidden">▓▓▓▓▓▓</span>
+              return part
+            })}
+          </p>
+          <Row className="g-2">
+            {question.options.map(word => (
+              <Col xs={6} key={word}>
+                <Button
+                  className={`w-100 answer-btn answer-btn--${optionState(word)}`}
+                  onClick={() => handleSelect(word)}
+                >
+                  {word}
+                </Button>
+              </Col>
+            ))}
+          </Row>
+        </>
+      )}
+
       {answered && (
-        <Button variant="dark" onClick={() => onNext(selectedId === correctId)}>
+        <Button variant="dark" onClick={() => onNext(selectedValue === correctValue)}>
           {index + 1 < total ? 'Nästa →' : 'Resultat'}
         </Button>
       )}
