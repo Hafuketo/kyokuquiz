@@ -28,3 +28,12 @@
 .answer-img-btn--correct { border-color: #3a6b47 !important; border-width: 3px !important; background: #eaf3ed !important; }
 .answer-img-btn--wrong   { border-color: var(--kq-seal) !important; border-width: 3px !important; background: #f8eaea !important; }
 .answer-img-btn--dim     { opacity: 0.4; }
+
+.cloze-blank,
+.cloze-hidden {
+  display: inline-block;
+  color: transparent;
+  background-color: var(--kq-border);
+  border-radius: 3px;
+  user-select: none;
+}
