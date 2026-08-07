@@ -25,7 +25,7 @@ const sv = {
     start:          'Start',
     cat_kick:           'Sparkar',
     cat_punch:          'Slag',
-    cat_block:          'Block',
+    cat_block:          'Blockeringar',
     cat_stance:         'Ställningar',
     cat_kata:           'Kata',
     cat_other:          'Övriga tekniker',
