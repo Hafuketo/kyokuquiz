@@ -16,6 +16,12 @@ const EXTRA_CATEGORIES: { key: string; value: DictionaryCategory; icon: React.Re
   { key: 'cat_terminology', value: 'terminology', icon: <FaBookOpen /> },
 ]
 
+const DIFFICULTY_TIERS: { tier: number; options: number; kanji: string }[] = [
+  { tier: 1, options: 2, kanji: '一' },
+  { tier: 2, options: 4, kanji: '二' },
+  { tier: 3, options: 6, kanji: '三' },
+]
+
 const ROW_ICONS: Partial<Record<string, React.ReactNode>> = {
   kick:      <GiHighKick       size={20} />,
   punch:     <GiHighPunch      size={20} />,
@@ -41,7 +47,7 @@ export default function Filter() {
   const { t } = useTranslation()
 
   const [showLegend, setShowLegend] = useState(false)
-  const [difficulty, setDifficulty] = useState(4)
+  const [difficultyTier, setDifficultyTier] = useState(2)
   const [selectedCells, setSelectedCells]   = useState<Set<string>>(defaultCells)
   const [selectedExtras, setSelectedExtras] = useState<DictionaryCategory[]>([])
   const [includeDojokun, setIncludeDojokun] = useState(false)
@@ -93,7 +99,7 @@ export default function Filter() {
       extras:     selectedExtras.join(','),
       dojokun:    includeDojokun ? '1' : '0',
       mottoes:    includeMottoes ? '1' : '0',
-      difficulty: String(difficulty),
+      difficulty: String(DIFFICULTY_TIERS.find(d => d.tier === difficultyTier)?.options ?? 4),
     })
     navigate(`/quiz/game?${params}`)
   }
@@ -110,8 +116,8 @@ export default function Filter() {
   }
 
   return (
-    <PageLayout colProps={{ xs: 12, sm: 11, md: 9, lg: 8, xl: 7 }} align="start">
-      <Scroll scrollable>
+    <PageLayout colProps={{ xs: 'auto' }} align="start">
+      <Scroll>
         <Stack gap={4}>
 
           <div style={{ overflowX: 'auto' }}>
@@ -209,17 +215,18 @@ export default function Filter() {
           </table>
 
         </Stack>
-        <div className="d-flex align-items-center gap-3 mt-4">
+        <div className="d-flex align-items-center gap-3 mt-4 justify-content-between">
           <span className="text-kq-mid text-uppercase fw-semibold fs-xs ls-label text-nowrap">
             {t('filter.difficulty')}
           </span>
           <div className="d-flex gap-1">
-            {[2, 4, 6].map(d => (
-              <Button key={d} size="sm"
-                variant={difficulty === d ? 'dark' : 'outline-dark'}
-                onClick={() => setDifficulty(d)}
+            {DIFFICULTY_TIERS.map(d => (
+              <Button key={d.tier} size="sm"
+                variant={difficultyTier === d.tier ? 'dark' : 'outline-dark'}
+                onClick={() => setDifficultyTier(d.tier)}
+                title={`${d.options}`}
               >
-                {d}
+                {d.kanji}
               </Button>
             ))}
           </div>
