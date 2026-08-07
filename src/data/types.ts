@@ -35,3 +35,17 @@ export interface Precept {
   textSwedish: string;
   textEnglish: string;
 }
+
+// Hand-authored fill-in-the-blank question, e.g. for dojo kun / sosai mottoes.
+// `template` is textSwedish with one word replaced by "{{blank}}" (the graded blank,
+// answered from `correctWord` vs `distractors`) and zero or more other occurrences of
+// the same word/inflections replaced by "{{hide}}" (statically redacted, not answerable —
+// present only so the answer isn't given away by seeing the word elsewhere in the text).
+export interface ClozeSource {
+  id: string;
+  source: 'dojokun' | 'sosaimottos';
+  sourceId: string;
+  template: string;
+  correctWord: string;
+  distractors: string[];
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "id": "dojokun-1-cloze",
+    "source": "dojokun",
+    "sourceId": "dojokun-1",
+    "template": "Vi ska träna vår kropp och själ för en fast och orubblig {{blank}}.",
+    "correctWord": "vilja",
+    "distractors": ["kraft", "styrka", "harmoni", "energi", "andning"]
+  },
+  {
+    "id": "dojokun-2-cloze",
+    "source": "dojokun",
+    "sourceId": "dojokun-2",
+    "template": "Vi ska noga studera kampkonstens innersta {{blank}} för att påpassligt och rådsnabbt reagera när så behövs.",
+    "correctWord": "väsen",
+    "distractors": ["ursprung", "mening", "kärna", "grund", "hemlighet"]
+  },
+  {
+    "id": "dojokun-3-cloze",
+    "source": "dojokun",
+    "sourceId": "dojokun-3",
+    "template": "Vi ska med en sann och okuvlig karaktär fostra självbehärskningens {{blank}}.",
+    "correctWord": "sinnelag",
+    "distractors": ["tålamod", "vishet", "mod", "ödmjukhet", "list"]
+  },
+  {
+    "id": "dojokun-4-cloze",
+    "source": "dojokun",
+    "sourceId": "dojokun-4",
+    "template": "Vi ska vinnlägga oss om {{blank}}, respektera våra seniorer och avhålla oss från ett våldsamt beteende.",
+    "correctWord": "höviskhet",
+    "distractors": ["tålamod", "beslutsamhet", "skicklighet", "list", "återhållsamhet"]
+  },
+  {
+    "id": "dojokun-5-cloze",
+    "source": "dojokun",
+    "sourceId": "dojokun-5",
+    "template": "Vi ska vörda vår personliga {{blank}} och inte glömma ödmjukhetens dygd.",
+    "correctWord": "övertygelse",
+    "distractors": ["framtid", "frihet", "heder", "värdighet", "trosuppfattning"]
+  },
+  {
+    "id": "dojokun-6-cloze",
+    "source": "dojokun",
+    "sourceId": "dojokun-6",
+    "template": "Vi ska vårda vår {{blank}} och styrka för att inte fela i händelse av en konfrontation.",
+    "correctWord": "visdom",
+    "distractors": ["heder", "list", "tro", "energi", "balans"]
+  },
+  {
+    "id": "dojokun-7-cloze",
+    "source": "dojokun",
+    "sourceId": "dojokun-7",
+    "template": "Vi ska hela vårt liv fortsätta att öva karatens {{blank}} och därigenom fullborda den Yttersta Sanningens väg.",
+    "correctWord": "principer",
+    "distractors": ["tekniker", "regler", "läror", "värderingar", "traditioner"]
+  },
+  {
+    "id": "sosai-1-cloze",
+    "source": "sosaimottos",
+    "sourceId": "sosai-1",
+    "template": "Stridens väg börjar och slutar med {{blank}}. Därför skall vi vara äkta och sant {{hide}} vid alla tillfällen.",
+    "correctWord": "höviskhet",
+    "distractors": ["mod", "styrka", "tålamod", "ödmjukhet", "disciplin"]
+  },
+  {
+    "id": "sosai-2-cloze",
+    "source": "sosaimottos",
+    "sourceId": "sosai-2",
+    "template": "Att följa Stridens väg är som att klättra uppför en klippa, att alltid sträva uppåt utan vila. Det kräver en absolut och orubblig {{blank}} inför uppgiften.",
+    "correctWord": "hängivelse",
+    "distractors": ["disciplin", "beslutsamhet", "uthållighet", "tro", "kraft"]
+  },
+  {
+    "id": "sosai-3-cloze",
+    "source": "sosaimottos",
+    "sourceId": "sosai-3",
+    "template": "Vi skall sträva efter att ta {{blank}} i allt, alltid vara på vår vakt mot handlingar som kommer ur självisk illvilja eller tanklöshet.",
+    "correctWord": "initiativet",
+    "distractors": ["ansvaret", "ledningen", "kontrollen", "täten", "rollen"]
+  },
+  {
+    "id": "sosai-4-cloze",
+    "source": "sosaimottos",
+    "sourceId": "sosai-4",
+    "template": "Inte ens en Karatens utövare kan bortse från {{blank}} betydelse. Likväl skall vi vara uppmärksamma så att vi inte blir fästa vid dem.",
+    "correctWord": "pengars",
+    "distractors": ["ärans", "framgångens", "hederns", "styrkans", "rangens"]
+  },
+  {
+    "id": "sosai-5-cloze",
+    "source": "sosaimottos",
+    "sourceId": "sosai-5",
+    "template": "I Stridens väg är {{blank}} kärnpunkten. Vi skall sträva efter att upprätthålla korrekt {{hide}} vid alla tillfällen.",
+    "correctWord": "inställning",
+    "distractors": ["andning", "teknik", "balans", "hållning", "koncentration"]
+  },
+  {
+    "id": "sosai-6-cloze",
+    "source": "sosaimottos",
+    "sourceId": "sosai-6",
+    "template": "Stridens väg börjar med ett tusen dagar och bemästras efter {{blank}} tusen dagars träning.",
+    "correctWord": "tio",
+    "distractors": ["fem", "tjugo", "hundra", "femtio", "tre"]
+  },
+  {
+    "id": "sosai-7-cloze",
+    "source": "sosaimottos",
+    "sourceId": "sosai-7",
+    "template": "I Stridens väg föder {{blank}} vishet. Begrunda därför dina gärningar och använd meditation som ett medel att utveckla dig själv.",
+    "correctWord": "introspektion",
+    "distractors": ["meditation", "erfarenhet", "disciplin", "tålamod", "ödmjukhet"]
+  },
+  {
+    "id": "sosai-8-cloze",
+    "source": "sosaimottos",
+    "sourceId": "sosai-8",
+    "template": "Stridens innersta väsen och syfte är universell. Alla själviska begär skall brännas i den hårda träningens {{blank}} eld.",
+    "correctWord": "härdande",
+    "distractors": ["brinnande", "renande", "glödande", "vägledande", "prövande"]
+  },
+  {
+    "id": "sosai-9-cloze",
+    "source": "sosaimottos",
+    "sourceId": "sosai-9",
+    "template": "Stridens väg börjar med en punkt och slutar i en {{blank}}. Raka linjer härstammar från denna princip.",
+    "correctWord": "cirkel",
+    "distractors": ["kvadrat", "triangel", "spiral", "linje", "båge"]
+  },
+  {
+    "id": "sosai-10-cloze",
+    "source": "sosaimottos",
+    "sourceId": "sosai-10",
+    "template": "Stridens innersta väsen kan endast upplevas genom {{blank}}. Låt denna insikt lära dig att aldrig frukta dess krav.",
+    "correctWord": "erfarenhet",
+    "distractors": ["studier", "observation", "tålamod", "meditation", "disciplin"]
+  },
+  {
+    "id": "sosai-11-cloze",
+    "source": "sosaimottos",
+    "sourceId": "sosai-11",
+    "template": "I Stridens väg kommer ett tillitsfullt och {{blank}} hjärta att rikligen belönas.",
+    "correctWord": "tacksamt",
+    "distractors": ["modigt", "ödmjukt", "tålmodigt", "starkt", "renhjärtat"]
+  }
+]
