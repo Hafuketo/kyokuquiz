@@ -61,11 +61,16 @@ export function generateQuestions(pool: AnyEntry[], count: number, difficulty: n
   const questions: EntryQuestion[] = []
 
   for (const correct of shuffle(pool).slice(0, count)) {
-    const distractors = pickDistractors(correct, pool, distractorCount)
+    const type = !correct.image ? 'term_to_meaning' : Math.random() < 0.5 ? 'image_to_name' : 'name_to_image'
+
+    // name_to_image renders every option as an image, so distractors must have one too —
+    // otherwise a distractor without an image renders as a broken <img>, which falls back
+    // to showing its alt text (nameJapanese), mixing text options into an image question.
+    const distractorPool = type === 'name_to_image' ? pool.filter(e => e.image) : pool
+    const distractors = pickDistractors(correct, distractorPool, distractorCount)
     if (distractors.length < distractorCount) continue
 
     const options = shuffle([correct, ...distractors])
-    const type = !correct.image ? 'term_to_meaning' : Math.random() < 0.5 ? 'image_to_name' : 'name_to_image'
 
     questions.push({
       id:      `gen-${correct.id}`,

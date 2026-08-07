@@ -93,7 +93,7 @@ export default function Quiz() {
   }
 
   return (
-    <PageLayout colProps={{ xs: 12, sm: 10, md: 7, lg: 6, xl: 5 }} align="start">
+    <PageLayout>
       <Scroll>
         <QuestionCard
           key={index}

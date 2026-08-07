@@ -32,7 +32,7 @@ export default function TechniquesGrade() {
     i18n.language === 'sv' ? t.nameSwedish : t.nameEnglish
 
   return (
-    <PageLayout align="start" colProps={{ xs: 12, sm: 10, md: 8, lg: 7, xl: 6 }}>
+    <PageLayout align="start">
       <Scroll scrollable>
         <Stack gap={4}>
           <div className="d-flex align-items-center gap-3">

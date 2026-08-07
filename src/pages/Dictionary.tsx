@@ -28,7 +28,7 @@ export default function Dictionary() {
     i18n.language === 'sv' ? entry.nameSwedish : entry.nameEnglish
 
   return (
-    <PageLayout align="start" colProps={{ xs: 12, sm: 10, md: 8, lg: 7, xl: 6 }}>
+    <PageLayout align="start">
       <Scroll scrollable>
         <h2 className="fw-bold text-kq-ink ls-wide mb-4">{t('dictionary.title')}</h2>
 
