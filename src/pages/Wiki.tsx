@@ -1,7 +1,10 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Stack, Button, Modal, ListGroup } from 'react-bootstrap'
-import { FaScroll, FaMountainSun, FaUser, FaBook } from 'react-icons/fa6'
+import { FaScroll, FaMountainSun, FaUser, FaBook,
+         FaDumbbell, FaHandFist, FaOm, FaHandsPraying, FaSeedling, FaScaleBalanced, FaRoute,
+         FaHandshake, FaMountain, FaBullseye, FaCoins, FaPerson, FaHourglassHalf, FaEye,
+         FaFire, FaCircle, FaBookOpen, FaHeart } from 'react-icons/fa6'
 import { MdHistoryEdu } from 'react-icons/md'
 import { useTranslation } from 'react-i18next'
 import { PageLayout, Scroll } from '../components/Scroll'
@@ -11,6 +14,27 @@ import mottos from '../data/sosaimottos.json'
 import { GRADES } from '../data/filterConfig'
 
 type TopicKey = 'dojokun' | 'mottos' | 'oyama' | 'history'
+
+const PRECEPT_ICONS: Record<string, React.ReactNode> = {
+  'dojokun-1': <FaDumbbell />,
+  'dojokun-2': <FaHandFist />,
+  'dojokun-3': <FaOm />,
+  'dojokun-4': <FaHandsPraying />,
+  'dojokun-5': <FaSeedling />,
+  'dojokun-6': <FaScaleBalanced />,
+  'dojokun-7': <FaRoute />,
+  'sosai-1':   <FaHandshake />,
+  'sosai-2':   <FaMountain />,
+  'sosai-3':   <FaBullseye />,
+  'sosai-4':   <FaCoins />,
+  'sosai-5':   <FaPerson />,
+  'sosai-6':   <FaHourglassHalf />,
+  'sosai-7':   <FaEye />,
+  'sosai-8':   <FaFire />,
+  'sosai-9':   <FaCircle />,
+  'sosai-10':  <FaBookOpen />,
+  'sosai-11':  <FaHeart />,
+}
 
 const TOPICS: { key: TopicKey; btnKey: string; icon: React.ReactNode }[] = [
   { key: 'dojokun', btnKey: 'wiki.dojokun_btn', icon: <FaScroll /> },
@@ -107,7 +131,7 @@ function PreceptModal({ title, items, lang, onClose }: {
           {items.map(item => (
             <ListGroup.Item key={item.id} className="px-0 py-3">
               <div className="d-flex gap-3 align-items-start">
-                <span className="fs-4 flex-shrink-0">{item.emoji}</span>
+                <span className="fs-4 flex-shrink-0 text-kq-gold">{PRECEPT_ICONS[item.id]}</span>
                 <div>
                   <p className="mb-1 fw-semibold text-kq-ink lh-sm" style={{ fontSize: '0.95rem' }}>
                     {lang === 'sv' ? item.textSwedish : item.textEnglish}

@@ -31,7 +31,6 @@ export interface Precept {
   id: string;
   grade: 0;
   number: number;
-  emoji: string;
   textSwedish: string;
   textEnglish: string;
 }
