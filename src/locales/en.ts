@@ -31,6 +31,7 @@ const en = {
     cat_other:          'Other techniques',
     terminologySection: 'Terminology',
     legendTitle:        'Legend',
+    difficulty:         'Difficulty',
     cat_words:          'Words',
     cat_positions:      'Positions & Bodyparts',
     cat_hand_position:  'Hand positions',

@@ -31,6 +31,7 @@ const sv = {
     cat_other:          'Övriga tekniker',
     terminologySection: 'Terminologi',
     legendTitle:        'Förklaring',
+    difficulty:         'Svårighetsgrad',
     cat_words:          'Ord',
     cat_positions:      'Positioner',
     cat_hand_position:  'Handposition',
