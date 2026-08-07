@@ -41,6 +41,7 @@ export default function Filter() {
   const { t } = useTranslation()
 
   const [showLegend, setShowLegend] = useState(false)
+  const [difficulty, setDifficulty] = useState(4)
   const [selectedCells, setSelectedCells]   = useState<Set<string>>(defaultCells)
   const [selectedExtras, setSelectedExtras] = useState<DictionaryCategory[]>([])
   const [includeDojokun, setIncludeDojokun] = useState(false)
@@ -88,10 +89,11 @@ export default function Filter() {
 
   function handleStart() {
     const params = new URLSearchParams({
-      cells:   [...selectedCells].join(','),
-      extras:  selectedExtras.join(','),
-      dojokun: includeDojokun ? '1' : '0',
-      mottoes: includeMottoes ? '1' : '0',
+      cells:      [...selectedCells].join(','),
+      extras:     selectedExtras.join(','),
+      dojokun:    includeDojokun ? '1' : '0',
+      mottoes:    includeMottoes ? '1' : '0',
+      difficulty: String(difficulty),
     })
     navigate(`/quiz/game?${params}`)
   }
@@ -207,7 +209,22 @@ export default function Filter() {
           </table>
 
         </Stack>
-        <Button variant="dark" size="lg" className="w-100 mt-4" disabled={!canStart} onClick={handleStart}>
+        <div className="d-flex align-items-center gap-3 mt-4">
+          <span className="text-kq-mid text-uppercase fw-semibold fs-xs ls-label text-nowrap">
+            {t('filter.difficulty')}
+          </span>
+          <div className="d-flex gap-1">
+            {[2, 4, 6].map(d => (
+              <Button key={d} size="sm"
+                variant={difficulty === d ? 'dark' : 'outline-dark'}
+                onClick={() => setDifficulty(d)}
+              >
+                {d}
+              </Button>
+            ))}
+          </div>
+        </div>
+        <Button variant="dark" size="lg" className="w-100 mt-3" disabled={!canStart} onClick={handleStart}>
           {t('filter.start')}
         </Button>
       </Scroll>
